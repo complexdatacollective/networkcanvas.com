@@ -11,10 +11,10 @@
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
-        {% for mypage in site.pages %}
-          {% if mypage.title %}
+        {% for item in site.data.nav %}
+          {% if item.title %}
           <li>
-            <a href="{{ mypage.url | relative_url }}">{{ mypage.title | escape }}</a>
+            <a href="{{ item.url | relative_url }}">{{ item.title | escape }}</a>
           </li>
           {% endif %}
         {% endfor %}

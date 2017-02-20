@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="container">
+  <div class="col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
+    <h2>{{ page.title | escape }}</h2>
+    {% for person in site.data.team %}
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="col-lg-3 text-center">
+            <img src="{{ person.image | relative_path }}" alt="headshot" class="img-circle">
+          </div>
+          <div class="col-lg-9">
+            <h3 class="person">{{ person.name | escape }}</h3>
+            <h4 class="job-title">{{ person.title | escape }}</h4>
+            <p>{{ person.bio | markdownify }}</p>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+

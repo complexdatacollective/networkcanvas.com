@@ -1,0 +1,44 @@
+- name: Joshua Melville
+  title: Lead Developer
+  image: /images/josh.jpg
+  bio: >
+    Joshua developed and designed the initial version of the Network Canvas 
+    framework as part of his PhD at the [Oxford Internet Institute, University 
+    of Oxford](http://www.oii.ox.ac.uk/). He is the lead developer of the 
+    [netCanvas-R protocol](http://www.netcanvas-r.com/), and will expand his role within this project to 
+    include overall management of development and design activities. A 
+    Sociologist, [Joshua's expertise](http://www.oii.ox.ac.uk/people/?id=273) 
+    lies in digital social research methodology, network data collection, qualitative network research.
+
+- name: Michelle Birkett
+  title: Principal Investigator
+  image: /images/michelle.jpg
+  bio: >
+    Michelle is faculty in the Department of Medical Social Sciences at Northwestern 
+    University, and directs the [Research Program in Complex Systems and Health
+    Disparities](http://isgmh.northwestern.edu/about/connect/) within the [Institute
+    for Sexual and Gender Minority Health](http://isgmh.northwestern.edu/). Her 
+    research utilizes innovative data collection tools and network and quantitative 
+    methodologies to understand social contextual influences on LGBT health. She is 
+    Co-I of the RADAR Study and co-leads the Network Data Core.
+
+- name: Gregory Phillips II
+  title: Principal Investigator
+  image: /images/gregory.jpg
+  bio: >
+    Gregory is faculty in the Department of Medical Social Sciences, and directs 
+    the [Evaluation, Data Integration, and Technical Assistance (EDIT) Research 
+    Program](http://isgmh.northwestern.edu/about/edit/) within the [Institute
+    for Sexual and Gender Minority Health and Wellbeing](http://isgmh.northwestern.edu/).
+    His research focuses on understanding the social, sexual, and network-level factors that drive the HIV epidemic among men who have sex with men. He is a Research Scientist on the RADAR study, and PI on PLoT ME (Plotting Layers of Transmission in MicroEpidemics), a Center for AIDS Research (CFAR) supplement to study venues and HIV prevention sites frequented by YMSM.
+
+- name: Bernie Hogan
+  title: Co-Investigator
+  image: /images/bernie.jpg
+  bio: Bernie is a Research Fellow at the Oxford Internet Institute, a Research Associate with Nuffield College, and an Associate Member of the Department of Sociology, all at the University of Oxford. He has been involved in advancing social network research for over fifteen years. He is the lead consultant on netCanvas-R, and contributes extensive expertise in network data collection and social research methodology.
+
+- name: Patrick Janulis
+  title: Co-Investigator
+  image: /images/patrick.jpg
+  bio: Patrick is postdoctoral fellow at the IMPACT program. Patrick received his doctorate in Ecological-Community Psychology from Michigan State University in 2014 where he conducted research on the impact of substance use on HIV and hepatitis C virus risk behavior with a focus on advanced statistical methods. Patrick is primarily working on RADAR, contributing expertise to longitudinal network data collection within netCanvas-R. He has also coordinated interviewer training and feedback on the use of the netCanvas-R protocol.
+
