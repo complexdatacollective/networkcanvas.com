@@ -13,19 +13,19 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+
 title: Network Canvas
 email: hello@networkcanvas.com
 
-description: > # this means to ignore newlines until "baseurl:"
+description: >
   A suite of open source tools that enable cutting edge personal networks research
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: ""     # the subpath of your site, e.g. /blog
+url: "https://www.networkcanvas.com"  # the base hostname & protocol for your site, e.g. http://example.com
 
 collections:
   guide:
     output: true
-    #permalink: /guide/:path/:title.:output_ext
 
 defaults:
   - scope:
@@ -33,8 +33,14 @@ defaults:
       type: guide
     values:
       layout: page
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
 
 google_analytics: ""
+discus_site: meshulam
 
 # Build settings
 markdown: kramdown
