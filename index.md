@@ -4,8 +4,9 @@
 
 layout: home
 
-hero_title: A cool software project for researchers
-hero_description: >
-  Does stuff you want to do lorem ipsum. That's a pretty big title.
-  Sure is. Click this button:
+hero_title: >
+  A suite of open source tools that enable cutting edge personal networks
+  research
+hero_description: Description goes here
+
 ---
