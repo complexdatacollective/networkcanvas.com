@@ -9,18 +9,18 @@ This is a Jekyll-based static site. It requires Ruby to build.
   Ruby for other projects you may wish to install with [RVM](https://rvm.io/)
   instead.
 * Install bundler:
-  ```
-  gem install bundler
-  ```
+```
+gem install bundler
+```
 * Clone this repository and change to its directory:
-  ```
-  git clone <url>
-  cd networkcanvas-web
-  ```
+```
+git clone <url>
+cd networkcanvas-web
+```
 * Install Jekyll and other dependencies from the Gemfile:
-  ```
-  bundle install
-  ```
+```
+bundle install
+```
 
 ### Building locally
 
