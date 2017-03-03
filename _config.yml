@@ -40,7 +40,6 @@ defaults:
       layout: page
 
 google_analytics: ""
-discus_site: meshulam
 
 # Build settings
 markdown: kramdown
