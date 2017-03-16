@@ -15,10 +15,10 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Network Canvas
-email: hello@networkcanvas.com
+email: info@networkcanvas.com
 
 description: >
-  A suite of open source tools that enable cutting edge personal networks research
+  A suite of open source tools that enable cutting edge personal networks research.
 
 baseurl: ""     # the subpath of your site, e.g. /blog
 url: "https://www.networkcanvas.com"  # the base hostname & protocol for your site, e.g. http://example.com
@@ -46,6 +46,4 @@ markdown: kramdown
 
 gems:
   - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
+exclude: [node_modules, package.json, npm-debug.log, Gruntfile.js, Gemfile, Gemfile.lock]
