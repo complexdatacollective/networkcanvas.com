@@ -28,3 +28,12 @@ $tomato: #e82d3f;
 $charcoal: #6d6f76;
 $platinum: #f2f6f7;
 $dark-platinum: #dae3e5;
+
+//Animation
+$animation-ratio: 1;
+$default-animation-speed: 1 * $animation-ratio;
+$default-easing-function: 'ease-in-out';
+$default-animation: all $default-animation-speed $default-easing-function;
+
+//Typography
+$font-family-netcanvas: "Quicksand", "Raleway", "Lucida Grande", Helvetica, sans-serif;

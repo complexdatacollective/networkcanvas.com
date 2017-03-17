@@ -1,10 +1,16 @@
 # Ordered links in top nav bar
 
-- title: Guide
-  url: /guide/
+- title: Guides
+  url: /guides/
 
-- title: Team
+- title: Team Members
   url: /team/
 
-- title: About
+- title: Technical Documentation
+  url: /docs/
+
+- title: Feedback
+  url: /feedback/
+
+- title: About the Project
   url: /about/

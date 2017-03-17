@@ -1,24 +1,20 @@
-<nav class="navbar navbar-default navbar-static-top">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="{{ "/" | relative_url}}">{{ site.title | escape }}</a>
-    </div>
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav navbar-right">
+<nav class="navbar fixed-top navbar-toggleable-md navbar-inverse ">
+  <div class="container" style="width:100%;max-width:1440px">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      <ul class="navbar-nav">
         {% for item in site.data.nav %}
           {% if item.title %}
-          <li>
-            <a href="{{ item.url | relative_url }}">{{ item.title | escape }}</a>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ item.url | relative_url }}">{{ item.title | escape }}</a>
           </li>
           {% endif %}
+
         {% endfor %}
+        <li class="nav-item"><a class="btn btn-primary my-2 my-sm-0">Download</a></li>
       </ul>
-    </div><!--/.navbar-collapse -->
+    </div>
   </div>
 </nav>

@@ -17,8 +17,7 @@
 title: Network Canvas
 email: info@networkcanvas.com
 
-description: >
-  A suite of open source tools that enable cutting edge personal networks research.
+description: A suite of open source tools that enable cutting edge personal networks research.
 
 baseurl: ""     # the subpath of your site, e.g. /blog
 url: "https://www.networkcanvas.com"  # the base hostname & protocol for your site, e.g. http://example.com
@@ -43,7 +42,8 @@ google_analytics: ""
 
 # Build settings
 markdown: kramdown
-
+livereload: true     # You no longer need to include --livereload
+reload_port: 5678    # If you don't want to use the default port
 gems:
   - jekyll-feed
 exclude: [node_modules, package.json, npm-debug.log, Gruntfile.js, Gemfile, Gemfile.lock]

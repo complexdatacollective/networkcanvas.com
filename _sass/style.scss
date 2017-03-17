@@ -1,3 +1,144 @@
-@import "_colors.scss";
-@import "_bootstrap-variables.scss";
+@import "_nc-brand.scss";
+// @import "_bootstrap-variables.scss";
+
+//bootstrap overrides
+$font-family-base:       $font-family-netcanvas !default;
+
+
+$brand-primary:             $light-sea-green !default;
+$brand-success:             $network-canvas-coral !default;
+$brand-info:                $sea-serpent !default;
+$brand-warning:             $mustard !default;
+$brand-danger:              $tomato !default;
+$brand-inverse:             $navy-taupe !default;
+
+// $body-bg:       $navy-taupe !default;
+// $body-color:    $white !default;
+$inverse-bg:    $white !default;
+$inverse-color: $rich-black !default;
+
+$spacer:   1.25rem !default;
+
+
+
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.navbar-toggleable {
+  @each $breakpoint in map-keys($grid-breakpoints) {
+    $next: breakpoint-next($breakpoint, $grid-breakpoints);
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+    &#{$infix} {
+      @include media-breakpoint-up($next) {
+        .navbar-nav {
+          .nav-link {
+            padding-right: 1rem;
+            padding-left: 1rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@mixin box-shadow($top, $left, $blur, $color, $inset: false) {
+  @if $inset {
+    -webkit-box-shadow:inset $top $left $blur $color;
+    -moz-box-shadow:inset $top $left $blur $color;
+    box-shadow:inset $top $left $blur $color;
+  } @else {
+    -webkit-box-shadow: $top $left $blur $color;
+    -moz-box-shadow: $top $left $blur $color;
+    box-shadow: $top $left $blur $color;
+  }
+}
+
+
+html, body {
+  font-size:18px;
+}
+
+//header
+
+.bg-gradient {
+  @include gradient-x($rich-black, $navy-taupe);
+}
+
+// hero
+
+.nc-hero {
+  @extend .jumbotron;
+  @extend .jumbotron-fluid;
+  @extend .d-flex;
+
+  padding:0;
+  // height:100vh;
+
+  background-color: $rich-black;
+
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2879 428'%3E%3Cdefs%3E%3Cstyle%3E.c-1%7Bfill:%23fff;%7D%3C/style%3E%3C/defs%3E%3Cpath class='c-1' d='M2880 0l-.2 428.5L0 429 2880 0z' id='c' data-name='x'/%3E%3C/svg%3E ");
+  background-size: 100% 10wh;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+
+
+// buttons
+
+.nc-btn {
+  @extend .btn;
+  border-radius: 2rem;
+  text-transform:uppercase;
+  letter-spacing: .15em;
+  padding: 1rem 2rem;
+  font-weight: 500;
+  font-size: 0.8rem;
+  border:0;
+  @include box-shadow(0,0.15rem,0,#000);
+  line-height: 1;
+  @include hover {
+    box-shadow: 0;
+  }
+  &:focus,
+  &.focus {
+    box-shadow: 0;
+  }
+}
+
+.nc-btn-primary {
+  @extend .btn-primary;
+  @include hover {
+    background: #00ba96
+  }
+}
+
+// sections
+
+section {
+  margin: 0;
+  padding: 10em 0;
+  background-size: 100% 10wh;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2879 428'%3E%3Cdefs%3E%3Cstyle%3E.c-1%7Bfill:%2300c9a2;%7D%3C/style%3E%3C/defs%3E%3Cpath class='c-1' d='M2880 0l-.2 428.5L0 429 2880 0z' id='c' data-name='x'/%3E%3C/svg%3E ");
+}
+
+section.section-arc {
+  padding: 20em 0;
+  color: $white;
+  background-color: $brand-primary;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2879 428'%3E%3Cdefs%3E%3Cstyle%3E.c-1%7Bfill:%23e2215b;%7D%3C/style%3E%3C/defs%3E%3Cpath class='c-1' d='M2880 0l-.2 428.5L0 429 2880 0z' id='c' data-name='x'/%3E%3C/svg%3E ");
+}
+
+section.section-nc {
+  padding: 20em 0;
+  color: $white;
+  background-color: $brand-success;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2879 428'%3E%3Cdefs%3E%3Cstyle%3E.c-1%7Bfill:%23f2b700;%7D%3C/style%3E%3C/defs%3E%3Cpath class='c-1' d='M2880 0l-.2 428.5L0 429 2880 0z' id='c' data-name='x'/%3E%3C/svg%3E ");
+}
+
+section.section-srv {
+  padding: 20em 0;
+  color: $white;
+  background-color: $brand-warning;
+}
