@@ -17,8 +17,19 @@ $brand-inverse:             $navy-taupe !default;
 $inverse-bg:    $white !default;
 $inverse-color: $rich-black !default;
 
-$spacer:   1.25rem !default;
+$spacer:   1.7rem;
+$line-height-base: 1.8;
 
+
+p {
+  margin-bottom: 1.2rem;
+}
+
+p.lead {
+  font-weight: 500;
+  line-height: 1.4;
+  margin-bottom:1.5rem;
+}
 
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
@@ -32,8 +43,8 @@ $spacer:   1.25rem !default;
       @include media-breakpoint-up($next) {
         .navbar-nav {
           .nav-link {
-            padding-right: 1rem;
-            padding-left: 1rem;
+            padding-right: 1.2rem;
+            padding-left: 1.2rem;
           }
         }
       }
@@ -53,12 +64,17 @@ $spacer:   1.25rem !default;
   }
 }
 
-
 html, body {
   font-size:18px;
 }
 
 //header
+
+.nav-container {
+  @extend .container;
+  width:100%;
+  max-width:1440px;
+}
 
 .bg-gradient {
   @include gradient-x($rich-black, $navy-taupe);
@@ -72,16 +88,50 @@ html, body {
   @extend .d-flex;
 
   padding:0;
-  // height:100vh;
-
+  margin:0;
   background-color: $rich-black;
 
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2879 428'%3E%3Cdefs%3E%3Cstyle%3E.c-1%7Bfill:%23fff;%7D%3C/style%3E%3C/defs%3E%3Cpath class='c-1' d='M2880 0l-.2 428.5L0 429 2880 0z' id='c' data-name='x'/%3E%3C/svg%3E ");
-  background-size: 100% 10wh;
-  background-position: bottom right;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2880 428'%3E%3Cdefs%3E%3Cstyle%3E.c-1%7Bfill:%23fff;%7D%3C/style%3E%3C/defs%3E%3Cpath class='c-1' d='M2882 0l-.2 428.5L0 428 2880 0z' id='c' data-name='x'/%3E%3C/svg%3E ");
+  background-position: bottom;
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
+.device-header {
+  padding:0;
+  @include media-breakpoint-down(md) {
+    display:none;
+  };
+}
+
+.logo-header {
+
+  text-align: center;
+  margin-right: 5%;
+  margin:8em 0 12em 0;
+
+  @include media-breakpoint-up(md) {
+    text-align: right;
+    margin-top:0em;
+    margin-bottom:10em;
+    transform: translateX(-20%);
+    padding:0;
+  };
+
+  @include media-breakpoint-up(lg) {
+    margin-top:3em;
+    margin-bottom:8em;
+  };
+
+  @include media-breakpoint-up(xl) {
+  };
+
+
+  h1 {
+    @include responsive-font(2.5vw,2.2em,70px,2.5em);
+  }
+
+}
 
 // buttons
 
@@ -112,33 +162,45 @@ html, body {
   }
 }
 
+// cards
+
+ .nc-card {
+   @extend .card;
+   border: 0;
+
+   .card-footer {
+     border: 0;
+     background-color: transparent;
+   }
+ }
+
 // sections
 
 section {
   margin: 0;
-  padding: 10em 0;
-  background-size: 100% 10wh;
+  padding: 5em 0 20em 0;
   background-position: bottom right;
   background-repeat: no-repeat;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2879 428'%3E%3Cdefs%3E%3Cstyle%3E.c-1%7Bfill:%2300c9a2;%7D%3C/style%3E%3C/defs%3E%3Cpath class='c-1' d='M2880 0l-.2 428.5L0 429 2880 0z' id='c' data-name='x'/%3E%3C/svg%3E ");
+  background-size: contain;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2880 428'%3E%3Cdefs%3E%3Cstyle%3E.c-1%7Bfill:%2300c9a2;%7D%3C/style%3E%3C/defs%3E%3Cpath class='c-1' d='M2880 0l-.2 428.5L0 428 2880 0z' id='c' data-name='x'/%3E%3C/svg%3E ");
 }
 
 section.section-arc {
-  padding: 20em 0;
+  padding: 5em 0 20em 0;
   color: $white;
   background-color: $brand-primary;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2879 428'%3E%3Cdefs%3E%3Cstyle%3E.c-1%7Bfill:%23e2215b;%7D%3C/style%3E%3C/defs%3E%3Cpath class='c-1' d='M2880 0l-.2 428.5L0 429 2880 0z' id='c' data-name='x'/%3E%3C/svg%3E ");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2880 428'%3E%3Cdefs%3E%3Cstyle%3E.c-1%7Bfill:%23e2215b;%7D%3C/style%3E%3C/defs%3E%3Cpath class='c-1' d='M2880 0l-.2 428.5L0 428 2880 0z' id='c' data-name='x'/%3E%3C/svg%3E ");
 }
 
 section.section-nc {
-  padding: 20em 0;
+  padding: 5em 0 20em 0;
   color: $white;
   background-color: $brand-success;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2879 428'%3E%3Cdefs%3E%3Cstyle%3E.c-1%7Bfill:%23f2b700;%7D%3C/style%3E%3C/defs%3E%3Cpath class='c-1' d='M2880 0l-.2 428.5L0 429 2880 0z' id='c' data-name='x'/%3E%3C/svg%3E ");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2880 428'%3E%3Cdefs%3E%3Cstyle%3E.c-1%7Bfill:%23f2b700;%7D%3C/style%3E%3C/defs%3E%3Cpath class='c-1' d='M2880 0l-.2 428.5L0 428 2880 0z' id='c' data-name='x'/%3E%3C/svg%3E ");
 }
 
 section.section-srv {
-  padding: 20em 0;
+  padding: 5em 0 20em 0;
   color: $white;
   background-color: $brand-warning;
 }
