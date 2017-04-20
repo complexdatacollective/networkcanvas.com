@@ -26,6 +26,8 @@
     "load-grunt-tasks": "^3.5.2"
   },
   "dependencies": {
-    "bootstrap": "^4.0.0-alpha.6"
+    "angled-edges": "^2.0.0",
+    "bootstrap": "^4.0.0-alpha.6",
+    "swiper": "^3.4.2"
   }
 }

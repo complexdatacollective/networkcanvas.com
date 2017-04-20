@@ -2,27 +2,26 @@
 // @import "_bootstrap-variables.scss";
 
 //bootstrap overrides
-$font-family-base:       $font-family-netcanvas !default;
+$font-family-base:       $font-family-netcanvas;
 
 
-$brand-primary:             $light-sea-green !default;
-$brand-success:             $network-canvas-coral !default;
-$brand-info:                $sea-serpent !default;
-$brand-warning:             $mustard !default;
-$brand-danger:              $tomato !default;
-$brand-inverse:             $navy-taupe !default;
+$brand-primary:             $light-sea-green;
+$brand-success:             $network-canvas-coral;
+$brand-info:                $sea-serpent;
+$brand-warning:             $mustard;
+$brand-danger:              $tomato;
+$brand-inverse:             $navy-taupe;
 
-// $body-bg:       $navy-taupe !default;
-// $body-color:    $white !default;
-$inverse-bg:    $white !default;
-$inverse-color: $rich-black !default;
+// $body-bg:       $navy-taupe;
+// $body-color:    $white;
+$inverse-bg:    $white;
+$inverse-color: $rich-black;
 
 $spacer:   1.7rem;
-$line-height-base: 1.8;
-
+$line-height-base: 1.6;
 
 p {
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.3rem;
 }
 
 p.lead {
@@ -31,8 +30,8 @@ p.lead {
   margin-bottom:1.5rem;
 }
 
-
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/angled-edges/_angled-edges.scss";
 
 .navbar-toggleable {
   @each $breakpoint in map-keys($grid-breakpoints) {
@@ -83,52 +82,93 @@ html, body {
 // hero
 
 .nc-hero {
-  @extend .jumbotron;
-  @extend .jumbotron-fluid;
-  @extend .d-flex;
+  display:flex;
+  position: relative;
+  background-image: linear-gradient($navy-taupe, $slate-blue);
+  @include media-breakpoint-up(md) {
+    @include angled-edge('inside bottom', 'upper left', #ffffff, 100);
+  };
+  @include media-breakpoint-up(lg) {
+    @include angled-edge('inside bottom', 'upper left', #ffffff, 180);
+  };
+  @include media-breakpoint-up(xl) {
+    @include angled-edge('inside bottom', 'upper left', #ffffff, 250);
+  };
 
-  padding:0;
-  margin:0;
-  background-color: $rich-black;
+}
 
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2880 428'%3E%3Cdefs%3E%3Cstyle%3E.c-1%7Bfill:%23fff;%7D%3C/style%3E%3C/defs%3E%3Cpath class='c-1' d='M2882 0l-.2 428.5L0 428 2880 0z' id='c' data-name='x'/%3E%3C/svg%3E ");
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: contain;
+.logo-mark-type {
+  display:none;
+  @media (min-width:1190px){
+    display:inline-block;
+  }
+}
+
+.logo-mark {
+  display:inline-block;
+  @media (min-width:1190px){
+    display:none;
+  }
 }
 
 .device-header {
   padding:0;
-  @include media-breakpoint-down(md) {
-    display:none;
-  };
-}
-
-.logo-header {
-
-  text-align: center;
-  margin-right: 5%;
-  margin:8em 0 12em 0;
+  flex-basis: 50%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  transform:translateX(-50%) scale(1.4);
+  position:relative;
+  z-index:99;
 
   @include media-breakpoint-up(md) {
-    text-align: right;
-    margin-top:0em;
-    margin-bottom:10em;
-    transform: translateX(-20%);
-    padding:0;
+    transform: translateX(-35%) translateY(60px) scale(3.2);
+    flex-basis: 30%;
+
   };
 
   @include media-breakpoint-up(lg) {
-    margin-top:3em;
-    margin-bottom:8em;
+    flex-basis: 60%;
+    transform: translateX(-20%) translateY(57px) scale(1.7);
   };
 
   @include media-breakpoint-up(xl) {
+    flex-basis: 70%;
+    transform:translateX(-0%) translateY(60px) scale(1.2);
+  };
+}
+
+.img-devices {
+  position: relative;
+  z-index:999;
+}
+
+.logo-header {
+  text-align: center;
+  padding:1em;
+  margin:3em 0 2em 0;
+
+  @include media-breakpoint-up(md) {
+    text-align: right;
+    position: relative;
+    margin-top:4em;
+    margin-bottom:8em;
+    padding: 0 4em 0 0;
+  };
+
+  @include media-breakpoint-up(lg) {
+    padding:0;
+    left:-8.5vw;
+    margin-top:8vh;
+    margin-bottom:15em;
+  };
+
+  @include media-breakpoint-up(xl) {
+    left:-10vw;
   };
 
 
   h1 {
-    @include responsive-font(2.5vw,2.2em,70px,2.5em);
+    @include responsive-font(3.5vw,2.2em,70px,2.5em);
   }
 
 }
@@ -167,7 +207,7 @@ html, body {
  .nc-card {
    @extend .card;
    border: 0;
-
+   background-color: transparent;
    .card-footer {
      border: 0;
      background-color: transparent;
@@ -178,29 +218,59 @@ html, body {
 
 section {
   margin: 0;
-  padding: 5em 0 20em 0;
+  padding: 9em 0 18em 0;
   background-position: bottom right;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2880 428'%3E%3Cdefs%3E%3Cstyle%3E.c-1%7Bfill:%2300c9a2;%7D%3C/style%3E%3C/defs%3E%3Cpath class='c-1' d='M2880 0l-.2 428.5L0 428 2880 0z' id='c' data-name='x'/%3E%3C/svg%3E ");
+  @include media-breakpoint-up(md) {
+    @include angled-edge('inside bottom', 'upper right', $platinum, 100);
+  };
+  @include media-breakpoint-up(lg) {
+    @include angled-edge('inside bottom', 'upper right', $platinum, 180);
+  };
+  @include media-breakpoint-up(xl) {
+    @include angled-edge('inside bottom', 'upper right', $platinum, 250);
+  };
 }
 
 section.section-arc {
-  padding: 5em 0 20em 0;
-  color: $white;
-  background-color: $brand-primary;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2880 428'%3E%3Cdefs%3E%3Cstyle%3E.c-1%7Bfill:%23e2215b;%7D%3C/style%3E%3C/defs%3E%3Cpath class='c-1' d='M2880 0l-.2 428.5L0 428 2880 0z' id='c' data-name='x'/%3E%3C/svg%3E ");
+  color: $navy-taupe;
+  background: $platinum;
+  @include media-breakpoint-up(md) {
+    @include angled-edge('inside bottom', 'upper left', $brand-success, 100);
+  };
+  @include media-breakpoint-up(lg) {
+    @include angled-edge('inside bottom', 'upper left', $brand-success, 180);
+  };
+  @include media-breakpoint-up(xl) {
+    @include angled-edge('inside bottom', 'upper left', $brand-success, 250);
+  };
 }
 
 section.section-nc {
-  padding: 5em 0 20em 0;
   color: $white;
   background-color: $brand-success;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2880 428'%3E%3Cdefs%3E%3Cstyle%3E.c-1%7Bfill:%23f2b700;%7D%3C/style%3E%3C/defs%3E%3Cpath class='c-1' d='M2880 0l-.2 428.5L0 428 2880 0z' id='c' data-name='x'/%3E%3C/svg%3E ");
+  @include media-breakpoint-up(md) {
+    @include angled-edge('inside bottom', 'upper left', $brand-warning, 100);
+  };
+  @include media-breakpoint-up(lg) {
+    @include angled-edge('inside bottom', 'upper left', $brand-warning, 180);
+  };
+  @include media-breakpoint-up(xl) {
+    @include angled-edge('inside bottom', 'upper left', $brand-warning, 250);
+  };
 }
 
 section.section-srv {
-  padding: 5em 0 20em 0;
   color: $white;
   background-color: $brand-warning;
+  @include media-breakpoint-up(md) {
+    @include angled-edge('inside bottom', 'upper left', #ffffff, 100);
+  };
+  @include media-breakpoint-up(lg) {
+    @include angled-edge('inside bottom', 'upper left', #ffffff, 180);
+  };
+  @include media-breakpoint-up(xl) {
+    @include angled-edge('inside bottom', 'upper left', #ffffff, 250);
+  };
 }

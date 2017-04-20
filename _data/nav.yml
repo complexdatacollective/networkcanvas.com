@@ -3,11 +3,14 @@
 - title: Guides
   url: /guides/
 
-- title: Technical Documentation
+- title: Documentation
   url: /docs/
 
 - title: Feedback
   url: /feedback/
 
-- title: About the Project
+- title: About
   url: /about/
+
+- title: Jobs
+  url: /jobs/
