@@ -84,56 +84,63 @@ html, body {
 .nc-hero {
   display:flex;
   position: relative;
+  height: 350px;
   background-image: linear-gradient($navy-taupe, $slate-blue);
   @include media-breakpoint-up(md) {
     @include angled-edge('inside bottom', 'upper left', #ffffff, 100);
+    height: 490px;
   };
   @include media-breakpoint-up(lg) {
     @include angled-edge('inside bottom', 'upper left', #ffffff, 180);
+    height: 700px;
   };
   @include media-breakpoint-up(xl) {
     @include angled-edge('inside bottom', 'upper left', #ffffff, 250);
+    height: 850px;
   };
 
 }
 
 .logo-mark-type {
   display:none;
-  @media (min-width:1190px){
+  @include media-breakpoint-up(sm) {
     display:inline-block;
   }
 }
 
 .logo-mark {
   display:inline-block;
-  @media (min-width:1190px){
+  @include media-breakpoint-up(sm) {
     display:none;
   }
 }
 
 .device-header {
   padding:0;
-  flex-basis: 50%;
-  flex-grow: 0;
-  flex-shrink: 0;
-  transform:translateX(-50%) scale(1.4);
-  position:relative;
+  position:absolute;
   z-index:99;
+  // right:30%;
+  // width: 1700px;
+  // margin-right:-20px;
 
   @include media-breakpoint-up(md) {
-    transform: translateX(-35%) translateY(60px) scale(3.2);
-    flex-basis: 30%;
-
+    right:45%;
+    width: 1000px;
+    margin-right:-20px;
+    top:5px;
   };
 
   @include media-breakpoint-up(lg) {
-    flex-basis: 60%;
-    transform: translateX(-20%) translateY(57px) scale(1.7);
+    right:35%;
+    width: 1400px;
+    margin-right:-20px;
+    top:0;
   };
 
   @include media-breakpoint-up(xl) {
-    flex-basis: 70%;
-    transform:translateX(-0%) translateY(60px) scale(1.2);
+    right:30%;
+    width: 1700px;
+    margin-right:-20px;
   };
 }
 
@@ -144,31 +151,32 @@ html, body {
 
 .logo-header {
   text-align: center;
-  padding:1em;
-  margin:3em 0 2em 0;
 
   @include media-breakpoint-up(md) {
     text-align: right;
-    position: relative;
-    margin-top:4em;
-    margin-bottom:8em;
-    padding: 0 4em 0 0;
+    position:absolute;
+    right:100px;
+    margin-top: -55px;
+    width:500px;
   };
 
   @include media-breakpoint-up(lg) {
-    padding:0;
-    left:-8.5vw;
-    margin-top:8vh;
-    margin-bottom:15em;
+    right:100px;
+    margin-top:-70px;
+    width:550px;
   };
 
   @include media-breakpoint-up(xl) {
-    left:-10vw;
+    right: auto;
+    margin-top: -130px;
+    width: 650px;
+    right: 17%;
+    margin-right: -20px;
   };
 
 
   h1 {
-    @include responsive-font(3.5vw,2.2em,70px,2.5em);
+    @include responsive-font(4.5vw,2.2em,70px,2.5em);
   }
 
 }
@@ -218,7 +226,11 @@ html, body {
 
 section {
   margin: 0;
-  padding: 9em 0 18em 0;
+  padding: 18em 0 9em 0;
+  // min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-position: bottom right;
   background-repeat: no-repeat;
   background-size: contain;

@@ -1,24 +1,35 @@
-<nav class="navbar navbar-toggleable-md bg-inverse navbar-inverse">
-  <div class="nav-container">
-    <a class="navbar-brand" href="#">
-  <img src="./images/svg/NC-Mark.svg" height="50" class="align-middle logo-mark" alt="Network Canvas">
-  <img src="./images/svg/NC-Type and Mark LG Pos.svg" height="50" class="align-middle logo-mark-type" alt="Network Canvas">
-    </a>
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-      <ul class="navbar-nav">
-        {% for item in site.data.nav %}
-          {% if item.title %}
-          <li class="nav-item">
-            <a class="nav-link" href="{{ item.url | relative_url }}">{{ item.title | escape }}</a>
-          </li>
-          {% endif %}
+<header>
+  <nav class="navbar navbar-toggleable-md bg-inverse navbar-inverse">
+    <div class="nav-container">
+      <a class="navbar-brand" href="#">
+    <img src="./images/svg/NC-Mark.svg" height="50" class="align-middle logo-mark" alt="Network Canvas">
+    <img src="./images/svg/NC-Type and Mark LG Pos.svg" height="50" class="align-middle logo-mark-type" alt="Network Canvas">
+      </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          {% for item in site.data.nav %}
+            {% if item.title %}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ item.url | relative_url }}">{{ item.title | escape }}</a>
+            </li>
+            {% endif %}
 
-        {% endfor %}
-        <li class="nav-item"><a class="btn btn-primary my-2 my-sm-0">Download</a></li>
-      </ul>
+          {% endfor %}
+          <!-- <li class="nav-item"><a class="btn btn-primary my-2 my-sm-0">Download</a></li> -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="nc-hero text-white bg-inverse align-items-center">
+    <div class="device-header hidden-sm-down">
+      <img src="/images/png/flat.png" class="img-fluid img-devices"/>
+    </div>
+    <div class="col logo-header">
+      <h1>Simplifying complex network data collection.</h1>
+      <p><a class="nc-btn nc-btn-primary" href="#" role="button">Learn more &rarr;</a></p>
     </div>
   </div>
-</nav>
+</header>

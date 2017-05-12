@@ -1,12 +1,15 @@
 # Ordered links in top nav bar
 
-- title: Guides
-  url: /guides/
+- title: Learn
+  url: /learn/
 
-- title: Documentation
-  url: /docs/
+# - title: Guides
+#   url: /guides/
+#
+# - title: Documentation
+#   url: /docs/
 
-- title: Feedback
+- title: Community Feedback
   url: /feedback/
 
 - title: About
