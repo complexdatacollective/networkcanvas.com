@@ -13,7 +13,7 @@
           {% for item in site.data.nav %}
             {% if item.title %}
             <li class="nav-item">
-              <a class="nav-link" href="{{ item.url | relative_url }}">{{ item.title | escape }}</a>
+              <a class="nav-link" href="{{item.url | relative_url }}">{{ item.title | escape }}</a>
             </li>
             {% endif %}
 
@@ -23,11 +23,11 @@
       </div>
     </div>
   </nav>
-  <div class="nc-hero text-white bg-inverse align-items-center">
+  <div class="nc-hero text-white align-items-center">
     <div class="device-header hidden-sm-down">
       <img src="/images/png/flat.png" class="img-fluid img-devices"/>
     </div>
-    <div class="col logo-header">
+    <div class="logo-header">
       <h1>Simplifying complex network data collection.</h1>
       <p><a class="nc-btn nc-btn-primary" href="#" role="button">Learn more &rarr;</a></p>
     </div>

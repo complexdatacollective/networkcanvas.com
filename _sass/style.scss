@@ -17,7 +17,7 @@ $brand-inverse:             $navy-taupe;
 $inverse-bg:    $white;
 $inverse-color: $rich-black;
 
-$spacer:   1.7rem;
+$spacer:   3rem;
 $line-height-base: 1.6;
 
 p {
@@ -83,20 +83,21 @@ html, body {
 
 .nc-hero {
   display:flex;
+  justify-content: flex-end;
   position: relative;
   height: 350px;
-  background-image: linear-gradient($navy-taupe, $slate-blue);
+  background: $navy-taupe;
   @include media-breakpoint-up(md) {
-    @include angled-edge('inside bottom', 'upper left', #ffffff, 100);
+    @include angled-edge('inside bottom', 'upper right', $platinum, 100);
     height: 490px;
   };
   @include media-breakpoint-up(lg) {
-    @include angled-edge('inside bottom', 'upper left', #ffffff, 180);
+    @include angled-edge('inside bottom', 'upper right', $platinum, 180);
     height: 700px;
   };
   @include media-breakpoint-up(xl) {
-    @include angled-edge('inside bottom', 'upper left', #ffffff, 250);
-    height: 850px;
+    @include angled-edge('inside bottom', 'upper right', $platinum, 250);
+    height: 80vh;
   };
 
 }
@@ -139,7 +140,7 @@ html, body {
 
   @include media-breakpoint-up(xl) {
     right:30%;
-    width: 1700px;
+    width: 1400px;
     margin-right:-20px;
   };
 }
@@ -149,29 +150,33 @@ html, body {
   z-index:999;
 }
 
+img.img-journey {
+  max-width:400px;
+  padding: 30px;
+  display:block;
+  margin: 0 auto;
+}
+
 .logo-header {
   text-align: center;
 
   @include media-breakpoint-up(md) {
     text-align: right;
-    position:absolute;
-    right:100px;
     margin-top: -55px;
-    width:500px;
+    margin-right: 100px;
+    width:470px;
   };
 
   @include media-breakpoint-up(lg) {
-    right:100px;
     margin-top:-70px;
-    width:550px;
+    width:500px;
+    margin-right: 180px;
   };
 
   @include media-breakpoint-up(xl) {
-    right: auto;
     margin-top: -130px;
-    width: 650px;
-    right: 17%;
-    margin-right: -20px;
+    width: 600px;
+    margin-right: 180px;
   };
 
 
@@ -179,6 +184,34 @@ html, body {
     @include responsive-font(4.5vw,2.2em,70px,2.5em);
   }
 
+}
+
+// Intro
+
+.intro-container {
+  @extend .container;
+  width: 800px;
+  // max-width:1440px;
+}
+
+img.logo-section {
+  width:130px;
+  margin: 3vw auto;
+  display: block;
+}
+
+hr {
+    margin-top: 1.7rem;
+    margin-bottom: 1.7rem;
+    border: 0;
+    border-top: 3px solid $dark-platinum;
+}
+
+img.card-img-top {
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+  padding:20px;
 }
 
 // buttons
@@ -212,21 +245,18 @@ html, body {
 
 // cards
 
- .nc-card {
-   @extend .card;
-   border: 0;
-   background-color: transparent;
-   .card-footer {
-     border: 0;
-     background-color: transparent;
-   }
- }
+.card {
+  z-index:99;
+  @include box-shadow(0,0.15rem,0,#000);
+  background: $sea-serpent;
+
+}
 
 // sections
 
 section {
   margin: 0;
-  padding: 18em 0 9em 0;
+  padding: 3em 0 5em 0;
   // min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -234,55 +264,108 @@ section {
   background-position: bottom right;
   background-repeat: no-repeat;
   background-size: contain;
-  @include media-breakpoint-up(md) {
-    @include angled-edge('inside bottom', 'upper right', $platinum, 100);
-  };
-  @include media-breakpoint-up(lg) {
-    @include angled-edge('inside bottom', 'upper right', $platinum, 180);
-  };
-  @include media-breakpoint-up(xl) {
-    @include angled-edge('inside bottom', 'upper right', $platinum, 250);
-  };
-}
+  &.section-intro {
+    background: $platinum;
+    padding: 10em 0 15em 0;
 
-section.section-arc {
-  color: $navy-taupe;
-  background: $platinum;
-  @include media-breakpoint-up(md) {
-    @include angled-edge('inside bottom', 'upper left', $brand-success, 100);
-  };
-  @include media-breakpoint-up(lg) {
-    @include angled-edge('inside bottom', 'upper left', $brand-success, 180);
-  };
-  @include media-breakpoint-up(xl) {
-    @include angled-edge('inside bottom', 'upper left', $brand-success, 250);
-  };
-}
+    p.lead {
+      font-weight: 400;
+      margin: 0 50px;
+    }
 
-section.section-nc {
-  color: $white;
-  background-color: $brand-success;
-  @include media-breakpoint-up(md) {
-    @include angled-edge('inside bottom', 'upper left', $brand-warning, 100);
-  };
-  @include media-breakpoint-up(lg) {
-    @include angled-edge('inside bottom', 'upper left', $brand-warning, 180);
-  };
-  @include media-breakpoint-up(xl) {
-    @include angled-edge('inside bottom', 'upper left', $brand-warning, 250);
-  };
-}
+    h1.section-heading {
+      border-bottom: 3px solid $dark-platinum;
+      padding-bottom: 25px;
+      margin-bottom: 2.5rem;
+    }
 
-section.section-srv {
-  color: $white;
-  background-color: $brand-warning;
-  @include media-breakpoint-up(md) {
-    @include angled-edge('inside bottom', 'upper left', #ffffff, 100);
-  };
-  @include media-breakpoint-up(lg) {
-    @include angled-edge('inside bottom', 'upper left', #ffffff, 180);
-  };
-  @include media-breakpoint-up(xl) {
-    @include angled-edge('inside bottom', 'upper left', #ffffff, 250);
-  };
+    .container {
+      background-image: url('/images/svg/line.svg');
+      background-repeat: no-repeat;
+      background-position: center 140px;
+    }
+    @include media-breakpoint-up(md) {
+      @include angled-edge('inside bottom', 'upper right', $navy-taupe, 100);
+    };
+    @include media-breakpoint-up(lg) {
+      @include angled-edge('inside bottom', 'upper right', $navy-taupe, 180);
+    };
+    @include media-breakpoint-up(xl) {
+      @include angled-edge('inside bottom', 'upper right', $navy-taupe, 250);
+    };
+  }
+  &.section-arc {
+    color: $platinum;
+    background: $navy-taupe;
+    padding: 2em 0 0em 0;
+    h1.section-heading {
+      border-bottom: 3px solid lighten($navy-taupe, 10%);
+      padding-bottom: 25px;
+      margin-bottom: 3.5rem;
+    }
+    @include media-breakpoint-up(md) {
+      @include angled-edge('inside bottom', 'upper right', $brand-success, 100);
+    };
+    @include media-breakpoint-up(lg) {
+      @include angled-edge('inside bottom', 'upper right', $brand-success, 180);
+    };
+    @include media-breakpoint-up(xl) {
+      @include angled-edge('inside bottom', 'upper right', $brand-success, 250);
+    };
+  }
+  &.section-nc {
+    color: $white;
+    background-color: $brand-success;
+    padding: 5em 0 15em 0;
+    h1.section-heading {
+      border-bottom: 3px solid darken($brand-success, 10%);
+      padding-bottom: 25px;
+      margin-bottom: 3.5rem;
+    }
+    @include media-breakpoint-up(md) {
+      @include angled-edge('inside bottom', 'upper right', $brand-warning, 100);
+    };
+    @include media-breakpoint-up(lg) {
+      @include angled-edge('inside bottom', 'upper right', $brand-warning, 180);
+    };
+    @include media-breakpoint-up(xl) {
+      @include angled-edge('inside bottom', 'upper right', $brand-warning, 250);
+    };
+  }
+  &.section-srv {
+    color: $white;
+    background-color: $brand-warning;
+    padding: 5em 0 15em 0;
+    h1.section-heading {
+      border-bottom: 3px solid darken($brand-warning, 10%);
+      padding-bottom: 25px;
+      margin-bottom: 3.5rem;
+    }
+    @include media-breakpoint-up(md) {
+      @include angled-edge('inside bottom', 'upper right', #ffffff, 100);
+    };
+    @include media-breakpoint-up(lg) {
+      @include angled-edge('inside bottom', 'upper right', #ffffff, 180);
+    };
+    @include media-breakpoint-up(xl) {
+      @include angled-edge('inside bottom', 'upper right', #ffffff, 250);
+    };
+  }
+  &.section-who {
+    padding: 5em 0 15em 0;
+    h1.section-heading {
+      border-bottom: 3px solid darken(#ffffff, 10%);
+      padding-bottom: 25px;
+      margin-bottom: 3.5rem;
+    }
+    @include media-breakpoint-up(md) {
+      // @include angled-edge('inside bottom', 'upper right', #ffffff, 100);
+    };
+    @include media-breakpoint-up(lg) {
+      // @include angled-edge('inside bottom', 'upper right', #ffffff, 180);
+    };
+    @include media-breakpoint-up(xl) {
+      // @include angled-edge('inside bottom', 'upper right', #ffffff, 250);
+    };
+  }
 }

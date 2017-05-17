@@ -1,13 +1,13 @@
 # Ordered links in top nav bar
 
-- title: Learn
-  url: /learn/
+# - title: Learn
+#   url: /learn/
 
 # - title: Guides
 #   url: /guides/
 #
-# - title: Documentation
-#   url: /docs/
+- title: Documentation
+  url: /docs/
 
 - title: Community Feedback
   url: /feedback/
@@ -15,5 +15,5 @@
 - title: About
   url: /about/
 
-- title: Jobs
-  url: /jobs/
+- title: GitHub
+  external_url: http://www.github.com
