@@ -1,9 +1,35 @@
-@import "_nc-brand.scss";
-// @import "_bootstrap-variables.scss";
+// Network Canvas brand colors
 
-//bootstrap overrides
-$font-family-base:       $font-family-netcanvas;
+//Primary
+$network-canvas-coral: #e2215b;
+$mustard: #f2b700;
+$light-sea-green: #00c9a2;
+$white: #ffffff;
+$slate-blue: #6b72ec;
+$navy-taupe: #2d2955;
+$cyber-grape: #3a4a75;
+$rich-black: #16152b;
 
+//Secondary
+$sea-serpent: #0fb2e2;
+$purple-pizazz: #d30fef;
+$paradise-pink: #ff3a8c;
+$cerulean-blue: #0f70ff;
+$kiwi: #70bf54;
+
+//Tertiary
+
+$neon-carrot: #f7891e;
+$barbie-pink: #ed008c;
+$tomato: #e82d3f;
+
+//Light
+
+$charcoal: #6d6f76;
+$platinum: #f2f6f7;
+$dark-platinum: #dae3e5;
+
+$font-family-base:       "Quicksand", "Raleway", "Lucida Grande", Helvetica, sans-serif;
 
 $brand-primary:             $light-sea-green;
 $brand-success:             $network-canvas-coral;
@@ -12,8 +38,6 @@ $brand-warning:             $mustard;
 $brand-danger:              $tomato;
 $brand-inverse:             $navy-taupe;
 
-// $body-bg:       $navy-taupe;
-// $body-color:    $white;
 $inverse-bg:    $white;
 $inverse-color: $rich-black;
 
@@ -33,24 +57,6 @@ p.lead {
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 @import "../node_modules/angled-edges/_angled-edges.scss";
 
-.navbar-toggleable {
-  @each $breakpoint in map-keys($grid-breakpoints) {
-    $next: breakpoint-next($breakpoint, $grid-breakpoints);
-    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
-
-    &#{$infix} {
-      @include media-breakpoint-up($next) {
-        .navbar-nav {
-          .nav-link {
-            padding-right: 1.2rem;
-            padding-left: 1.2rem;
-          }
-        }
-      }
-    }
-  }
-}
-
 @mixin box-shadow($top, $left, $blur, $color, $inset: false) {
   @if $inset {
     -webkit-box-shadow:inset $top $left $blur $color;
@@ -61,6 +67,30 @@ p.lead {
     -moz-box-shadow: $top $left $blur $color;
     box-shadow: $top $left $blur $color;
   }
+}
+
+@mixin responsive-font($responsive, $min, $max: false, $fallback: false) {
+  $responsive-unitless: $responsive / ($responsive - $responsive + 1);
+  $dimension: if(unit($responsive) == 'vh', 'height', 'width');
+  $min-breakpoint: $min / $responsive-unitless * 100;
+
+  @media (max-#{$dimension}: #{$min-breakpoint}) {
+    font-size: $min;
+  }
+
+  @if $max {
+    $max-breakpoint: $max / $responsive-unitless * 100;
+
+    @media (min-#{$dimension}: #{$max-breakpoint}) {
+      font-size: $max;
+    }
+  }
+
+  @if $fallback {
+    font-size: $fallback;
+  }
+
+  font-size: $responsive;
 }
 
 @include media-breakpoint-down(md) {
@@ -82,47 +112,15 @@ p.lead {
   }
 }
 
-
 html, body {
   font-size:18px;
 }
 
 //header
-
 .nav-container {
   @extend .container;
   width:100%;
   max-width:1440px;
-}
-
-.bg-gradient {
-  @include gradient-x($rich-black, $navy-taupe);
-}
-
-// hero
-
-.nc-hero {
-  display:flex;
-  justify-content: flex-end;
-  position: relative;
-  height: 350px;
-  max-height: 830px;
-  background: $navy-taupe;
-  @include media-breakpoint-up(md) {
-
-    @include angled-edge('inside bottom', 'upper right', $platinum, 100);
-    height: 490px;
-  };
-  @include media-breakpoint-up(lg) {
-    @include angled-edge('inside bottom', 'upper right', $platinum, 180);
-    height: 700px;
-  };
-  @include media-breakpoint-up(xl) {
-    min-height: 800px;
-    @include angled-edge('inside bottom', 'upper right', $platinum, 250);
-    height: 80vh;
-  };
-
 }
 
 .logo-mark-type {
@@ -139,108 +137,93 @@ html, body {
   }
 }
 
-.device-header {
-  padding:0;
-  position:absolute;
-  z-index:99;
-  // right:30%;
-  // width: 1700px;
-  // margin-right:-20px;
+// hero
+.nc-hero {
+  display:flex;
+  justify-content: flex-end;
+  position: relative;
+  height: 350px;
+  max-height: 830px;
+  background: $navy-taupe;
 
-  @include media-breakpoint-up(md) {
-    right:45%;
-    width: 1000px;
-    margin-right:-20px;
-    top:5px;
-  };
+  .device-header {
+    padding:0;
+    position:absolute;
+    z-index:99;
 
-  @include media-breakpoint-up(lg) {
-    right:35%;
-    width: 1400px;
-    margin-right:-20px;
-    top:0;
-  };
+    .img-devices {
+      position: relative;
+      z-index:999;
+    }
 
-  @include media-breakpoint-up(xl) {
-    right:30%;
-    width: 1670px;
-    margin-right:0;
-  };
-}
+    @include media-breakpoint-up(md) {
+      right:45%;
+      width: 1000px;
+      margin-right:-20px;
+      top:5px;
+    };
 
+    @include media-breakpoint-up(lg) {
+      right:35%;
+      width: 1400px;
+      margin-right:-20px;
+      top:0;
+    };
 
-.logo-header {
-  text-align: center;
-
-  @include media-breakpoint-up(md) {
-    text-align: right;
-    margin-top: -55px;
-    margin-right: 130px;
-    width:430px;
-  };
-
-  @include media-breakpoint-up(lg) {
-    margin-top:-70px;
-    width:500px;
-    margin-right: 180px;
-  };
-
-  @include media-breakpoint-up(xl) {
-    margin-top: -130px;
-    width: 600px;
-    margin-right: 16%;
-  };
-
-
-  h1 {
-    @include responsive-font(4.5vw,2.2em,70px,2.5em);
+    @include media-breakpoint-up(xl) {
+      right:30%;
+      width: 1670px;
+      margin-right:0;
+    };
   }
 
-}
 
-.img-devices {
-  position: relative;
-  z-index:999;
-}
+  .logo-header {
+    text-align: center;
 
-img.img-journey {
-  max-width:400px;
-  padding: 30px;
-  display:block;
-  margin: 0 auto;
-}
+    @include media-breakpoint-up(md) {
+      text-align: right;
+      margin-top: -55px;
+      margin-right: 130px;
+      width:430px;
+    };
+
+    @include media-breakpoint-up(lg) {
+      margin-top:-70px;
+      width:500px;
+      margin-right: 180px;
+    };
+
+    @include media-breakpoint-up(xl) {
+      margin-top: -130px;
+      width: 600px;
+      margin-right: 16%;
+    };
 
 
-// Intro
+    h1 {
+      @include responsive-font(4.5vw,2.2em,70px,2.5em);
+    }
 
-.intro-container {
-  @extend .container;
-  width: 800px;
-  // max-width:1440px;
-}
+  }
 
-img.logo-section {
-  width:130px;
-  margin: 3vw auto;
-  display: block;
-}
+  @include media-breakpoint-up(md) {
+    @include angled-edge('inside bottom', 'upper right', $platinum, 100);
+    height: 490px;
+  };
+  @include media-breakpoint-up(lg) {
+    @include angled-edge('inside bottom', 'upper right', $platinum, 180);
+    height: 700px;
+  };
+  @include media-breakpoint-up(xl) {
+    min-height: 800px;
+    @include angled-edge('inside bottom', 'upper right', $platinum, 250);
+    height: 80vh;
+  };
 
-hr {
-    margin-top: 1.7rem;
-    margin-bottom: 1.7rem;
-    border: 0;
-    border-top: 3px solid $dark-platinum;
-}
-
-img.card-img-top {
-  height: 200px;
-  display: block;
-  margin: 0 auto;
-  padding:20px;
 }
 
 // buttons
-
 .nc-btn {
   @extend .btn;
   border-radius: 2rem;
@@ -269,36 +252,40 @@ img.card-img-top {
 }
 
 // cards
-
 .card {
   z-index:99;
   @include box-shadow(0,0.15rem,0,#000);
   background: $sea-serpent;
-
 }
 
-.form-group {
-  margin-bottom: 1rem;
+img.card-img-top {
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+  padding:20px;
 }
 
-.indicates-required {
-  margin-bottom: 1rem;
-}
 // Mailchimp
-
-.form-bottom {
-  margin-top:2em;
-}
-
 #mc_embed_signup {
   h5 {
     margin-top:1.5em;
     margin-bottom: 1em;
   }
+
+  .indicates-required {
+    margin-bottom: 1rem;
+  }
+
+  .form-bottom {
+    margin-top:2em;
+  }
+
+  .form-group {
+    margin-bottom: 1rem;
+  }
 }
 
 // sections
-
 section {
   margin: 0;
   padding: 3em 0 5em 0;
@@ -341,6 +328,13 @@ section {
 
     p.lead {
       font-weight: 400;
+    }
+
+    img.img-journey {
+      max-width:400px;
+      padding: 30px;
+      display:block;
+      margin: 0 auto;
     }
 
     h1.section-heading {
