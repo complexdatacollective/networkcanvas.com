@@ -454,11 +454,25 @@ section {
     };
   }
   &.section-who {
-    padding: 5em 0 15em 0;
+    padding: 5em 0 5em 0;
     h1.section-heading {
       border-bottom: 3px solid darken(#ffffff, 10%);
       padding-bottom: 25px;
       margin-bottom: 3.5rem;
+    }
+
+    .card {
+      background: $platinum;
+      border:0;
+      margin-bottom: 35px;
+      .card-block {
+        text-align: center;
+        padding-top:0;
+      }
+      h4 {
+        margin-bottom:0;
+        font-size: 1.3rem;
+      }
     }
     @include media-breakpoint-up(md) {
       // @include angled-edge('inside bottom', 'upper right', #ffffff, 100);
