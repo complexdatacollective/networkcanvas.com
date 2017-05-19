@@ -6,14 +6,14 @@
 # - title: Guides
 #   url: /guides/
 #
-- title: Documentation
-  url: /docs/
-
-- title: Community Feedback
-  url: /feedback/
-
-- title: About
-  url: /about/
-
-- title: GitHub
-  external_url: http://www.github.com
+# - title: Documentation
+#   url: /docs/
+#
+# - title: Feedback
+#   url: /feedback/
+#
+# - title: About
+#   url: /about/
+#
+# - title: GitHub
+#   external_url: http://www.github.com

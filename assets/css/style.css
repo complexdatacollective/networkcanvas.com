@@ -6703,6 +6703,16 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   padding-right: 1.2rem;
   padding-left: 1.2rem; }
 
+@media (max-width: 991px) {
+  .card-deck .card {
+    display: flex;
+    flex: 100%;
+    flex-direction: column; }
+    .card-deck .card:not(:first-child) {
+      margin-left: 0; }
+    .card-deck .card:not(:last-child) {
+      margin-right: 0;
+      margin-bottom: 15px; } }
 html, body {
   font-size: 18px; }
 
@@ -6719,6 +6729,7 @@ html, body {
   justify-content: flex-end;
   position: relative;
   height: 350px;
+  max-height: 830px;
   background: #2d2955; }
   @media (min-width: 768px) {
     .nc-hero {
@@ -6756,6 +6767,7 @@ html, body {
         bottom: 0; } }
   @media (min-width: 1200px) {
     .nc-hero {
+      min-height: 800px;
       position: relative;
       height: 80vh; }
       .nc-hero::after {
@@ -6803,8 +6815,36 @@ html, body {
   @media (min-width: 1200px) {
     .device-header {
       right: 30%;
-      width: 1400px;
-      margin-right: -20px; } }
+      width: 1670px;
+      margin-right: 0; } }
+
+.logo-header {
+  text-align: center; }
+  @media (min-width: 768px) {
+    .logo-header {
+      text-align: right;
+      margin-top: -55px;
+      margin-right: 130px;
+      width: 430px; } }
+  @media (min-width: 992px) {
+    .logo-header {
+      margin-top: -70px;
+      width: 500px;
+      margin-right: 180px; } }
+  @media (min-width: 1200px) {
+    .logo-header {
+      margin-top: -130px;
+      width: 600px;
+      margin-right: 16%; } }
+  .logo-header h1 {
+    font-size: 2.5em;
+    font-size: 4.5vw; }
+    @media (max-width: 48.88889em) {
+      .logo-header h1 {
+        font-size: 2.2em; } }
+    @media (min-width: 1555.55556px) {
+      .logo-header h1 {
+        font-size: 70px; } }
 
 .img-devices {
   position: relative;
@@ -6815,34 +6855,6 @@ img.img-journey {
   padding: 30px;
   display: block;
   margin: 0 auto; }
-
-.logo-header {
-  text-align: center; }
-  @media (min-width: 768px) {
-    .logo-header {
-      text-align: right;
-      margin-top: -55px;
-      margin-right: 100px;
-      width: 470px; } }
-  @media (min-width: 992px) {
-    .logo-header {
-      margin-top: -70px;
-      width: 500px;
-      margin-right: 180px; } }
-  @media (min-width: 1200px) {
-    .logo-header {
-      margin-top: -130px;
-      width: 600px;
-      margin-right: 180px; } }
-  .logo-header h1 {
-    font-size: 2.5em;
-    font-size: 4.5vw; }
-    @media (max-width: 48.88889em) {
-      .logo-header h1 {
-        font-size: 2.2em; } }
-    @media (min-width: 1555.55556px) {
-      .logo-header h1 {
-        font-size: 70px; } }
 
 .intro-container {
   width: 800px; }
@@ -6891,6 +6903,19 @@ img.card-img-top {
   box-shadow: 0 0.15rem 0 #000;
   background: #0fb2e2; }
 
+.form-group {
+  margin-bottom: 1rem; }
+
+.indicates-required {
+  margin-bottom: 1rem; }
+
+.form-bottom {
+  margin-top: 2em; }
+
+#mc_embed_signup h5 {
+  margin-top: 1.5em;
+  margin-bottom: 1em; }
+
 section {
   margin: 0;
   padding: 3em 0 5em 0;
@@ -6900,20 +6925,40 @@ section {
   background-position: bottom right;
   background-repeat: no-repeat;
   background-size: contain; }
+  @media (min-width: 768px) {
+    section {
+      padding: 3em 0 0em 0; } }
+  section h1.section-heading {
+    font-size: 1.7rem; }
+    @media (min-width: 768px) {
+      section h1.section-heading {
+        font-size: 2rem; } }
+    @media (min-width: 992px) {
+      section h1.section-heading {
+        font-size: 2.3rem; } }
+    @media (min-width: 1200px) {
+      section h1.section-heading {
+        font-size: 2.5rem; } }
   section.section-intro {
     background: #f2f6f7;
-    padding: 10em 0 15em 0; }
+    padding: 2em 2em; }
+    @media (min-width: 768px) {
+      section.section-intro {
+        padding: 8em 0 5em 0; } }
+    @media (min-width: 992px) {
+      section.section-intro {
+        padding: 10em 0 15em 0; } }
+    @media (min-width: 1200px) {
+      section.section-intro {
+        padding: 15em 0 15em 0; } }
     section.section-intro p.lead {
-      font-weight: 400;
-      margin: 0 50px; }
+      font-weight: 400; }
     section.section-intro h1.section-heading {
       border-bottom: 3px solid #dae3e5;
       padding-bottom: 25px;
       margin-bottom: 2.5rem; }
-    section.section-intro .container, section.section-intro .nav-container, section.section-intro .intro-container {
-      background-image: url("/images/svg/line.svg");
-      background-repeat: no-repeat;
-      background-position: center 140px; }
+    section.section-intro .container .col, section.section-intro .nav-container .col, section.section-intro .intro-container .col {
+      margin-bottom: 2em; }
     @media (min-width: 768px) {
       section.section-intro {
         position: relative; }
@@ -6933,6 +6978,14 @@ section {
     @media (min-width: 992px) {
       section.section-intro {
         position: relative; }
+        section.section-intro p.lead {
+          margin: 0 50px; }
+        section.section-intro .container, section.section-intro .nav-container, section.section-intro .intro-container {
+          background-image: url("/images/svg/line.svg");
+          background-repeat: no-repeat;
+          background-position: center 140px; }
+          section.section-intro .container .col, section.section-intro .nav-container .col, section.section-intro .intro-container .col {
+            margin-bottom: 0; }
         section.section-intro::after {
           background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' viewBox='0 0 100 180' fill='rgb(45,41,85)' fill-opacity='1'%3E%3Cpolygon points='0,180 100,180 0,0'%3E%3C/polygon%3E%3C/svg%3E");
           background-position: center center;
@@ -6964,8 +7017,7 @@ section {
           bottom: 0; } }
   section.section-arc {
     color: #f2f6f7;
-    background: #2d2955;
-    padding: 2em 0 0em 0; }
+    background: #2d2955; }
     section.section-arc h1.section-heading {
       border-bottom: 3px solid #3f3a77;
       padding-bottom: 25px;
@@ -7020,14 +7072,14 @@ section {
           bottom: 0; } }
   section.section-nc {
     color: #ffffff;
-    background-color: #e2215b;
-    padding: 5em 0 15em 0; }
+    background-color: #e2215b; }
     section.section-nc h1.section-heading {
       border-bottom: 3px solid #b81848;
       padding-bottom: 25px;
       margin-bottom: 3.5rem; }
     @media (min-width: 768px) {
       section.section-nc {
+        padding: 3em 0 9em 0;
         position: relative; }
         section.section-nc::after {
           background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' viewBox='0 0 100 100' fill='rgb(242,183,0)' fill-opacity='1'%3E%3Cpolygon points='0,100 100,100 0,0'%3E%3C/polygon%3E%3C/svg%3E");
@@ -7044,6 +7096,7 @@ section {
           bottom: 0; } }
     @media (min-width: 992px) {
       section.section-nc {
+        padding: 6em 0 17em 0;
         position: relative; }
         section.section-nc::after {
           background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' viewBox='0 0 100 180' fill='rgb(242,183,0)' fill-opacity='1'%3E%3Cpolygon points='0,180 100,180 0,0'%3E%3C/polygon%3E%3C/svg%3E");
@@ -7077,13 +7130,26 @@ section {
   section.section-srv {
     color: #ffffff;
     background-color: #f2b700;
-    padding: 5em 0 15em 0; }
+    padding: 5em 0 5em 0; }
     section.section-srv h1.section-heading {
       border-bottom: 3px solid #bf9000;
       padding-bottom: 25px;
       margin-bottom: 3.5rem; }
+    section.section-srv a {
+      color: #e2215b; }
+    section.section-srv #mc_embed_signup {
+      padding: 50px;
+      margin-top: 50px;
+      color: #2d2955;
+      background: #f2f6f7;
+      -webkit-box-shadow: 0 0.15rem 0 #000;
+      -moz-box-shadow: 0 0.15rem 0 #000;
+      box-shadow: 0 0.15rem 0 #000;
+      border-radius: 0.25rem;
+      z-index: 9; }
     @media (min-width: 768px) {
       section.section-srv {
+        padding: 5em 0 0em 0;
         position: relative; }
         section.section-srv::after {
           background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' viewBox='0 0 100 100' fill='rgb(255,255,255)' fill-opacity='1'%3E%3Cpolygon points='0,100 100,100 0,0'%3E%3C/polygon%3E%3C/svg%3E");
