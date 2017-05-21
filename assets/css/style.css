@@ -6700,6 +6700,10 @@ html, body {
   width: 100%;
   max-width: 1440px; }
 
+@media (min-width: 992px) {
+  .navbar-toggleable-md .navbar-nav .nav-link {
+    padding-right: 2rem;
+    padding-left: .5rem; } }
 .logo-mark-type {
   display: none; }
   @media (min-width: 576px) {

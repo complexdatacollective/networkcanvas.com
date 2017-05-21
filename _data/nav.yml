@@ -1,19 +1,16 @@
 # Ordered links in top nav bar
 
-# - title: Learn
-#   url: /learn/
+- title: About
+  url: "#about"
 
-# - title: Guides
-#   url: /guides/
-#
-# - title: Documentation
-#   url: /docs/
-#
-# - title: Feedback
-#   url: /feedback/
-#
-# - title: About
-#   url: /about/
-#
-# - title: GitHub
-#   external_url: http://www.github.com
+- title: Features
+  url: "#features"
+
+- title: Timeline
+  url: "#timeline"
+
+- title: Feedback
+  url: "#feedback"
+
+- title: Team
+  url: "#team"
