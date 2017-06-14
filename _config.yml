@@ -17,7 +17,7 @@
 title: Network Canvas
 email: info@networkcanvas.com
 
-description: A suite of open source tools that enable cutting edge personal networks research.
+description: Simplifying complex network data collection.
 
 baseurl: ""     # the subpath of your site, e.g. /blog
 url: "https://www.networkcanvas.com"  # the base hostname & protocol for your site, e.g. http://example.com
@@ -38,7 +38,7 @@ defaults:
     values:
       layout: page
 
-google_analytics: ""
+google_analytics: "UA-100029443-1"
 
 # Build settings
 markdown: kramdown
