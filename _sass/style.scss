@@ -418,10 +418,41 @@ section {
     }
     @include media-breakpoint-up(md) {
       padding: 3em 0 9em 0;
-      @include angled-edge('inside bottom', 'upper right', $brand-warning, 100);
+      @include angled-edge('inside bottom', 'upper right', $light-sea-green, 100);
     };
     @include media-breakpoint-up(lg) {
       padding: 6em 0 17em 0;
+      @include angled-edge('inside bottom', 'upper right', $light-sea-green, 180);
+    };
+    @include media-breakpoint-up(xl) {
+      @include angled-edge('inside bottom', 'upper right', $light-sea-green, 250);
+    };
+  }
+  &.section-cite {
+    color: $white;
+    background-color: $light-sea-green;
+    h1.section-heading {
+      border-bottom: 3px solid darken($light-sea-green, 10%);
+      padding-bottom: 25px;
+      margin-bottom: 3.5rem;
+    }
+
+    .timeline {
+      margin-top:3em;
+      width:100%;
+    }
+
+    .card {
+      background: $platinum;
+      padding:40px;
+      margin-top: 3em;
+    }
+    @include media-breakpoint-up(md) {
+      padding: 0em 0 9em 0;
+      @include angled-edge('inside bottom', 'upper right', $brand-warning, 100);
+    };
+    @include media-breakpoint-up(lg) {
+      padding: 0em 0 17em 0;
       @include angled-edge('inside bottom', 'upper right', $brand-warning, 180);
     };
     @include media-breakpoint-up(xl) {
