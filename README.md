@@ -40,6 +40,20 @@ jekyll build
 
 The built HTML and assets are placed in the `_site` directory.
 
+### Deploying
+
+To deploy to the networkcanvas server via SSH:
+
+```
+./deploy.sh
+```
+
+If your SSH user is different than your local username, create a `.env` config
+file:
+
+```
+echo "DEPLOY_ACCOUNT=remoteuser" > .env
+```
 
 ### Directory structure
 
