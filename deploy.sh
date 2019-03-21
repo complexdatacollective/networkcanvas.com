@@ -27,7 +27,7 @@ DIR="$( cd "$( dirname $( dirname "$0" ) )" && pwd)"
 [ -f "$DIR/.env" ] && source "$DIR/.env"
 
 echo "Building production Jekyll site"
-JEKYLL_ENV=production jekyll build
+JEKYLL_ENV=production bundle exec jekyll build
 
 echo "Deploying ${DIR}/${DEPLOY_SOURCE_DIR} to ${DEPLOY_ACCOUNT}@${DEPLOY_SERVER}:${DEPLOY_DEST_DIR}"
 rsync $NFLAG -rvz --delete -e "ssh" --rsync-path="sudo rsync" "${DIR}/${DEPLOY_SOURCE_DIR}" "${DEPLOY_ACCOUNT}@${DEPLOY_SERVER}:${DEPLOY_DEST_DIR}"
