@@ -1,0 +1,60 @@
+// Responsive Breakpoints
+$breakpoints: (
+  mobile-portrait: 320px,
+  mobile-landscape: 480px,
+  tablet: 640px,
+  full-nav: 700px,
+  ipad: 768px,
+  wp-bar-switch: 783px,
+  desktop-narrow: 880px,
+  desktop: 1024px,
+  container-max: 1100px,
+  large: 1260px
+);
+
+@mixin mq($breakpoint, $rule:min-width) {
+  $value: map-get($breakpoints, $breakpoint);
+
+  @if $rule == 'max-width' {
+    $value: $value - 1;
+  }
+
+  @if $value != null {
+    @media screen and ($rule: $value) {
+      @content;
+    }
+  }
+}
+
+@mixin mq-max($breakpoint) {
+  $value: map-get($breakpoints, $breakpoint) - 1;
+
+  @if $value != null {
+    @media screen and (max-width: $value) {
+      @content;
+    }
+  }
+}
+
+@mixin mq-range($breakpoint1, $breakpoint2) {
+  $min-value: map-get($breakpoints, $breakpoint1);
+  $max-value: map-get($breakpoints, $breakpoint2) - 1;
+
+  @if $min-value != null and $max-value != null {
+    @media screen and (min-width: $min-value) and (max-width: $max-value) {
+      @content;
+    }
+  }
+}
+
+// Visually Hide
+@mixin visually-hide {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}

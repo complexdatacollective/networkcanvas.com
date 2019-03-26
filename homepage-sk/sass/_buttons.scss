@@ -1,0 +1,56 @@
+.btn {
+  display: inline-block;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 25px;
+  color: white;
+  font-family: $sans-serif-medium;
+  cursor: pointer;
+}
+
+.btn--color-a {
+  background: $color-a;
+
+  &:hover {
+    background: darken($color-a, 8%);
+  }
+}
+
+.btn--color-b {
+  background: $color-b;
+
+  &:hover {
+    background: darken($color-b, 8%);
+  }
+}
+
+.btn--color-c {
+  background: $color-c;
+
+  &:hover {
+    background: darken($color-c, 8%);
+  }
+}
+
+.btn--color-d {
+  background: $color-d;
+
+  &:hover {
+    background: darken($color-d, 8%);
+  }
+}
+
+.btn--sm {
+  padding: 12px 40px;
+  font-size: .7rem;
+}
+
+.btn--md {
+  padding: 17px 50px;
+  font-size: .75rem;
+}
+
+.btn--lg {
+  padding: 20px 60px;
+  font-size: 1rem;
+}

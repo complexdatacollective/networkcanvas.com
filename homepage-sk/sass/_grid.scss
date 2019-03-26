@@ -1,0 +1,17 @@
+.grid {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+
+  &__col-half {
+    width: 46%;
+  }
+
+  @include mq(ipad, 'max-width') {
+    flex-direction: column;
+
+    &__col-half {
+      width: 100%;
+    }
+  }
+}

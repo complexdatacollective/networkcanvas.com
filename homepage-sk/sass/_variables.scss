@@ -1,0 +1,37 @@
+// Font Stack
+$sans-serif-main: 'Quicksand-Regular', Helvetica, Arial, sans-serif;
+$sans-serif-light: 'Quicksand-Light', Helvetica, Arial, sans-serif;
+$sans-serif-medium: 'Quicksand-Medium', Helvetica, Arial, sans-serif;
+$sans-serif-bold: 'Quicksand-Bold', Helvetica, Arial, sans-serif;
+
+// Colors
+$color-a: #57C6a4; // Green
+$color-b: #d1395d; // Red
+$color-c: #eab93f; // Yellow
+$color-d: #3a3a75; // Purple
+$color-e: #16152b; // Very Dark Blue
+
+$text-color-main: #2d2955;
+$text-color-light: #aaaaaa;
+$text-color-mid: #666666;
+
+// Grays
+$gray-light-1: #efefef;
+$gray-light-2: #b4c5cf;
+
+// Layout
+$container-width: 90%;
+$container-max-width: 1120px;
+$section-padding: 3em;
+$container-small-max-width: 840px;
+$viewport-switch: calc(#{$container-max-width}/.9);
+
+// Keyframes
+@keyframes fade-in-1 {   
+  0% {     
+    opacity: 0;   
+  }    
+  100% {
+    opacity: 1;
+  }
+}

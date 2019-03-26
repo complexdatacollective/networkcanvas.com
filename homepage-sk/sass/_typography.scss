@@ -1,0 +1,58 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $sans-serif-bold;
+  margin-top: 0;
+  line-height: 1.15;
+}
+
+p {
+  margin-top: 0;
+  line-height: 1.375;
+  margin-bottom: 0;
+  padding-bottom: 1.3rem;
+}
+
+a {
+  text-decoration: none;
+  transition: all .2s ease;
+}
+
+b,
+strong {
+  font-weight: 700;
+}
+
+kbd,
+samp {
+  font-family: monospace, monospace; 
+  font-size: 1em;
+}
+
+small {
+  font-size: 80%;
+}
+
+pre {
+  font-family: monospace, monospace; 
+  font-size: 1em; 
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}

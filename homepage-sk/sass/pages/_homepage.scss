@@ -1,0 +1,294 @@
+.hero {
+  &__heading {
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 80px;
+  }
+
+  &__content-wrap {
+    display: flex;
+    justify-content: space-between;
+    max-width: 92%;
+    margin: 0 auto;
+  }
+
+  &__video-wrap {
+    width: 46%;
+    position: relative;
+    border: 18px solid $color-e;
+    border-radius: 18px;
+    position: relative;
+    overflow: hidden;
+
+    video {
+      // 101% to fix Safari border bug
+      width: 101%;
+      height: 101%;
+      object-fit: cover;
+      max-width: 101% !important;
+    }
+  }
+
+  &__video-button {
+    position: absolute;
+    top: -20px;
+    height: 2px;
+    width: 24px;
+    background: $color-e;
+    border-radius: 5px 5px 0 0;
+    
+    &--a {
+      left: 10px;
+    }
+
+    &--b {
+      left: 36px;
+    }
+  }
+
+  &__content {
+    width: 46%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    p {
+      font-size: 1.45em;
+      line-height: 1.25;
+    }
+  }
+
+  &__tagline {
+    font-size: 1.45em;
+    font-family: $sans-serif-bold;
+    padding-bottom: 1.85rem;
+  }
+
+  &__btn-wrap {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  &__btn-note {
+    margin-left: 40px;
+    font-size: .75rem;
+  }
+
+  @include mq(desktop-narrow, 'max-width') {
+    &__heading {
+      font-size: 2.75em;
+      padding-bottom: 55px;
+    }
+
+    &__content-wrap {
+      flex-direction: column;
+    }
+
+    &__video-wrap,
+    &__content {
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    &__video-wrap {
+      margin-bottom: 2.5em;
+    }
+
+    &__content {
+      text-align: center;
+    }
+
+    &__btn-wrap {
+      justify-content: center;
+    }
+  }
+
+  @include mq(tablet, 'max-width') {
+    padding: 2em 0 3em;
+    
+    &__btn-wrap {
+      flex-direction: column;
+    }
+
+    &__btn-note {
+      margin-left: 0;
+      margin-top: 1.25em;
+    }
+  }
+
+  @include mq(mobile-landscape, 'max-width') {
+    &__heading {
+      font-size: 2.4em;
+      padding-bottom: 30px;
+    }
+
+    &__content p,
+    &__tagline {
+      font-size: 1.25em;
+    }
+  }
+}
+
+.cta-block {
+  margin-top: 4em;
+  margin-bottom: 3em;
+
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    max-width: 88%;
+    margin: 0 auto;
+  }
+
+  &__content {
+    width: 46%;
+    text-align: center;
+
+    img {
+      width: 105px;
+      margin: 0 auto 30px;
+      height: 116px;
+    }
+
+    h2 {
+      margin-bottom: 0;
+      padding-bottom: 1rem;
+    }
+
+    p {
+      padding-bottom: 2rem;
+    }
+  }
+
+  @include mq(desktop-narrow, 'max-width') {
+    margin-top: 3em;
+  }
+
+  @include mq(ipad, 'max-width') {
+    &__wrap {
+      max-width: 92%;
+    }
+  }
+
+  @include mq(tablet, 'max-width') {
+    margin-top: 1.5em;
+
+    &__wrap {
+      flex-direction: column;
+    }
+
+    &__content {
+      width: 100%;
+
+      &:not(:last-of-type){ 
+        margin-bottom: 4.5em;
+      }
+    }
+  }
+}
+
+.about-block {
+  position: relative;
+
+  &__bg-img {
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 95%;
+    right: 0;
+    top: -800px;
+  }
+  
+  .container {
+    position: relative;
+    z-index: 10;
+  }
+
+  .grid__col-half {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  @include mq(container-max, 'max-width') {
+    &__bg-img {
+      top: -600px;
+    }
+  }
+
+  @include mq(desktop-narrow, 'max-width') {
+    &__bg-img {
+      top: -400px;
+    }
+  }
+
+  @include mq(ipad, 'max-width') {
+    text-align: center;
+
+    &__bg-img {
+      width: 100%;
+      right: 0;
+    }
+
+    .grid__col-half {
+      display: flex;
+
+      &:nth-child(1) {
+        order: 2;
+      }
+
+      &:nth-child(2) {
+        order: 1;
+        margin-bottom: 2.5em;
+      }
+    }
+  }
+
+  @include mq(tablet, 'max-width') {
+    &__bg-img {
+      width: 200%;
+      top: -200px;
+    }
+  }
+}
+
+.workflow-block {
+  margin-top: 2em;
+  position: relative;
+  background-image: url('../img/blob-gray.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center 50%;
+
+  .container {
+    position: relative;
+    z-index: 100;
+  }
+
+  &__icon-img {
+    height: 90%;
+  }
+
+  .grid__col-half {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+   @include mq(ipad, 'max-width') {
+    text-align: center;
+    background-size: cover;
+    background-position: 20% 50%;
+
+    &__icon-img {
+      width: 300px;
+      max-width: 100%;
+      height: auto;
+      margin: 0 auto 40px;
+    }
+   }
+}
