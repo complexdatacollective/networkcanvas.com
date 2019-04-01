@@ -108,9 +108,11 @@ sup {
   text-transform: uppercase;
   text-align: center;
   border-radius: 25px;
+  letter-spacing: 1px;
   color: white;
   font-family: "Quicksand-Medium", Helvetica, Arial, sans-serif;
-  cursor: pointer; }
+  cursor: pointer;
+  box-shadow: 0 2px 0 #191630; }
 
 .btn--color-a {
   background: #57C6a4; }
@@ -180,7 +182,7 @@ textarea {
     width: 22px;
     height: 2px;
     border-radius: 2px;
-    background: #d1395d; }
+    background: #3a3a75; }
     .header__menu-trigger span:not(:last-child) {
       margin-bottom: .25em; }
   .has-open-nav .header__menu-trigger {
@@ -245,7 +247,9 @@ textarea {
       display: block;
       margin-left: 0;
       text-align: left;
-      margin-bottom: 10px; }
+      margin-bottom: 16px; }
+      .header__nav li a {
+        font-size: 1.3rem; }
     .has-open-nav .header__nav {
       display: block;
       position: fixed;
@@ -254,9 +258,9 @@ textarea {
       top: 0;
       padding: 35px 0 20px 20px;
       width: 100%;
+      height: 100%;
       left: 0;
-      right: 0;
-      box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.1); } }
+      right: 0; } }
 
 .footer {
   padding: 3em 0 2em; }
@@ -377,15 +381,11 @@ section {
 .hero__video-wrap {
   width: 46%;
   position: relative;
-  border: 18px solid #16152b;
-  border-radius: 18px;
-  position: relative;
   overflow: hidden; }
   .hero__video-wrap video {
-    width: 101%;
-    height: 101%;
-    object-fit: cover;
-    max-width: 101% !important; }
+    border: 18px solid #16152b;
+    border-radius: 18px;
+    position: relative; }
 .hero__video-button {
   position: absolute;
   top: -20px;
@@ -499,12 +499,18 @@ section {
     align-items: center;
     justify-content: center;
     flex-direction: column; }
+  @media screen and (max-width: 1259px) {
+    .about-block__bg-img {
+      top: -650px; } }
   @media screen and (max-width: 1099px) {
     .about-block__bg-img {
-      top: -600px; } }
+      top: -550px; } }
+  @media screen and (max-width: 1023px) {
+    .about-block__bg-img {
+      top: -430px; } }
   @media screen and (max-width: 879px) {
     .about-block__bg-img {
-      top: -400px; } }
+      top: -350px; } }
   @media screen and (max-width: 767px) {
     .about-block {
       text-align: center; }

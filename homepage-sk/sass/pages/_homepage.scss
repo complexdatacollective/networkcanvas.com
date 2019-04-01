@@ -16,17 +16,12 @@
   &__video-wrap {
     width: 46%;
     position: relative;
-    border: 18px solid $color-e;
-    border-radius: 18px;
-    position: relative;
     overflow: hidden;
 
     video {
-      // 101% to fix Safari border bug
-      width: 101%;
-      height: 101%;
-      object-fit: cover;
-      max-width: 101% !important;
+      border: 18px solid $color-e;
+      border-radius: 18px;
+      position: relative;
     }
   }
 
@@ -213,15 +208,27 @@
     flex-direction: column;
   }
 
+  @include mq(large, 'max-width') {
+    &__bg-img {
+      top: -650px;
+    }
+  }
+
   @include mq(container-max, 'max-width') {
     &__bg-img {
-      top: -600px;
+      top: -550px;
+    }
+  }
+
+  @include mq(desktop, 'max-width') {
+    &__bg-img {
+      top: -430px;
     }
   }
 
   @include mq(desktop-narrow, 'max-width') {
     &__bg-img {
-      top: -400px;
+      top: -350px;
     }
   }
 
