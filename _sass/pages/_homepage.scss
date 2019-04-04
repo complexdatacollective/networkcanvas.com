@@ -15,9 +15,9 @@
 
   &__video-wrap {
     width: 46%;
+    height: 100%;
     position: relative;
     overflow: hidden;
-    //-webkit-mask-image
     border: 18px solid $color-e;
     border-radius: 18px;
     background-color: $color-e;
