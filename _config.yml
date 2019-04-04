@@ -22,21 +22,20 @@ description: Network Canvas - simplifying complex network data collection. A fre
 baseurl: ""     # the subpath of your site, e.g. /blog
 url: "https://www.networkcanvas.com"  # the base hostname & protocol for your site, e.g. http://example.com
 
-collections:
-  guide:
-    output: true
-
-defaults:
-  - scope:
-      path: ""
-      type: guide
-    values:
-      layout: page
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: page
+sass:
+  sass_dir: _sass
+#
+#defaults:
+#  - scope:
+#      path: ""
+#      type: guide
+#    values:
+#      layout: page
+#  - scope:
+#      path: ""
+#      type: pages
+#    values:
+#      layout: page
 
 google_analytics: "UA-100029443-1"
 
