@@ -23,19 +23,9 @@ baseurl: ""     # the subpath of your site, e.g. /blog
 url: "https://www.networkcanvas.com"  # the base hostname & protocol for your site, e.g. http://example.com
 
 sass:
-  sass_dir: _sass
-#
-#defaults:
-#  - scope:
-#      path: ""
-#      type: guide
-#    values:
-#      layout: page
-#  - scope:
-#      path: ""
-#      type: pages
-#    values:
-#      layout: page
+  load_paths:
+    - _sass
+    - assets/shared/shared-web-styles
 
 google_analytics: "UA-100029443-1"
 
