@@ -35,4 +35,4 @@ livereload: true     # You no longer need to include --livereload
 reload_port: 5678    # If you don't want to use the default port
 gems:
   - jekyll-feed
-exclude: [README.md, deploy.sh,  node_modules, package.json, npm-debug.log, Gruntfile.js, Gemfile, Gemfile.lock]
+exclude: [README.md, deploy.sh,  node_modules, package.json, npm-debug.log, Gruntfile.js, Gemfile, Gemfile.lock, vendor]
