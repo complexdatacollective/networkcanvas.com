@@ -1,3 +1,32 @@
+$sans-serif-bold: sans-serif;
+
+.home-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2000px;
+  z-index: -1;
+  background: url('../img/bg-main.svg');
+  background-repeat: no-repeat;
+  background-size: 4000px 2000px;
+  background-position: center top;
+
+  @include mq(desktop-narrow, 'max-width') {
+    background-size: 4000px 1750px;
+  }
+
+  @include mq(tablet, 'max-width') { // 768, same as 'ipad'
+    background-size: 4000px 1600px;
+  }
+
+  @include mq(mobile-landscape, 'max-width') {
+    background-size: 250%;
+    background-position: 25% 50px;
+    height: 1000px;
+  }
+}
+
 .hero {
   &__heading {
     font-size: 3.5rem;
