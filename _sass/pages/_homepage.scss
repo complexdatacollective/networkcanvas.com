@@ -18,9 +18,9 @@
     height: 100%;
     position: relative;
     overflow: hidden;
-    border: 18px solid $color-e;
+    border: 18px solid $color-cyber-grape;
     border-radius: 18px;
-    background-color: $color-e;
+    background-color: $color-cyber-grape;
     video {
       position: relative;
       border-radius: 8px;
@@ -32,9 +32,9 @@
     top: -20px;
     height: 2px;
     width: 24px;
-    background: $color-e;
+    background: $color-cyber-grape;
     border-radius: 5px 5px 0 0;
-    
+
     &--a {
       left: 10px;
     }
@@ -104,7 +104,7 @@
 
   @include mq(tablet, 'max-width') {
     padding: 2em 0 3em;
-    
+
     &__btn-wrap {
       flex-direction: column;
     }
@@ -179,7 +179,7 @@
     &__content {
       width: 100%;
 
-      &:not(:last-of-type){ 
+      &:not(:last-of-type){
         margin-bottom: 4.5em;
       }
     }
@@ -200,7 +200,7 @@
       max-height: 1200px;
     }
   }
-  
+
   .container {
     position: relative;
     z-index: 10;
