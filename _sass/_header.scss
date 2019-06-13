@@ -108,6 +108,7 @@
       font-family: $quicksand-font;
       border-bottom: 2px solid transparent;
 
+      &.is-active,
       &:hover {
         color: $color-primary;
         border-bottom: 2px solid $color-primary;
