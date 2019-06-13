@@ -19,7 +19,7 @@ section: download
       </div>
 
       <div class="app__platform">
-        OS X
+        macOS
       </div>
 
       <div class="app__platform">
@@ -53,7 +53,7 @@ section: download
       </div>
 
       <div class="app__platform">
-        <a href="#" class="btn btn--sm btn--color-b">Download for<br />OS X</a>
+        <a href="#" class="btn btn--sm btn--color-b">Download for<br />macOS</a>
       </div>
 
       <div class="app__platform">
@@ -91,7 +91,7 @@ section: download
       </div>
 
       <div class="app__platform">
-        <a href="#" class="btn btn--sm btn--color-a">Download for<br />OS X</a>
+        <a href="#" class="btn btn--sm btn--color-a">Download for<br />macOS</a>
       </div>
 
       <div class="app__platform">
@@ -117,7 +117,7 @@ section: download
       </div>
 
       <div class="app__platform">
-        <a href="#" class="btn btn--sm btn--color-c">Download for<br />OS X</a>
+        <a href="#" class="btn btn--sm btn--color-c">Download for<br />macOS</a>
       </div>
 
       <div class="app__platform">
