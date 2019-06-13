@@ -1,8 +1,9 @@
 .section-download {
+  $divider: #e7e7e7;
 
   .app-suite {
     display: block;
-    margin: 0 -1rem;
+    margin: 0 -.5rem;
 
     &::after {
       content: "";
@@ -10,24 +11,130 @@
       display: table;
     }
 
-    &__app {
+    &__app,
+    &__platforms {
       box-sizing: border-box;
-      float: left;
-      width: 33%;
-      padding: 0 1rem;
+      float: none;
+      width: auto;
+      margin-top: 1rem;
+
+      @include mq(tablet) {
+        float: left;
+        width: 25%;
+        padding: 0 .5rem;
+      }
+    }
+
+    &__platforms {
+      display: none;
+
+      @include mq(tablet) {
+        display: block;
+      }
     }
   }
 
   .app {
-    background: purple;
-    padding: 2rem;
+    margin-top: 50px;
+    position: relative;
+
+    @include mq(tablet) {
+      margin-top: 0px;
+    }
 
     &__hero {
-      height: 200px;
+      height: 75px;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &-logo {
+        height: 75px;
+
+        img {
+          height: 75px;
+        }
+      }
+
+
+      @include mq(tablet) {
+        width: 100%;
+        height: 0;
+        padding-bottom: 100%;
+        position: relative;
+
+        &-logo {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          img {
+            width: 80%;
+            height: auto;
+          }
+        }
+      }
+    }
+
+    &__intro {
+      height: 75px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0 .5rem;
     }
 
     &__platform {
-      height: 100px;
+      height: 80px;
+      border-top: 1px solid $divider;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0 1rem;
+
+      @include mq(tablet) {
+        height: 120px;
+      }
+
+      @include mq(desktop) {
+        height: 80px;
+      }
+
+      .btn {
+        display: block;
+        width: 100%;
+      }
+
+      &-badge {
+        img {
+          height: 50px;
+        }
+
+        @include mq(tablet) {
+          width: 80%;
+          display: block;
+
+          img {
+            width: 100%;
+            height: auto;
+          }
+        }
+      }
     }
+
+    &--platforms {
+      .app__intro,
+      .app__platform {
+        justify-content: flex-end;
+        text-align: right;
+      }
+    }
+
   }
 }
