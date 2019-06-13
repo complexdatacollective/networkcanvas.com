@@ -44,7 +44,5 @@ navigation:
     url: /about.html
   - title: Documentation
     url: https://documentation.networkcanvas.com
-  - title: Contact
-    url: /contact.html
   - title: Feedback
     url: /feedback.html
