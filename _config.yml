@@ -40,8 +40,10 @@ exclude: [README.md, deploy.sh,  node_modules, package.json, npm-debug.log, Grun
 navigation:
   - title: Home
     url: /
+  - title: About
+    url: /about.html
   - title: Documentation
-    url: /documentation.html
+    url: http://documentation.networkcanvas.com
   - title: Contact
     url: /contact.html
   - title: Feedback
