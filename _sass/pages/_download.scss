@@ -1,0 +1,33 @@
+.section-download {
+
+  .app-suite {
+    display: block;
+    margin: 0 -1rem;
+
+    &::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    &__app {
+      box-sizing: border-box;
+      float: left;
+      width: 33%;
+      padding: 0 1rem;
+    }
+  }
+
+  .app {
+    background: purple;
+    padding: 2rem;
+
+    &__hero {
+      height: 200px;
+    }
+
+    &__platform {
+      height: 100px;
+    }
+  }
+}

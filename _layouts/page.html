@@ -5,7 +5,7 @@ layout: default
 {% include header.html %}
 
 <main class="site__content">
-    <section>
+    <section class="section-{{ page.section | default: 'default' }}">
         <div class="container">
             <h1>{{ page.title }}</h1>
 
