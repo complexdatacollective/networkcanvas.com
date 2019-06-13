@@ -45,7 +45,9 @@ section: download
       </div>
 
       <div class="app__intro">
-        Network Canvas
+        <h4>Network Canvas</h4>
+
+        <p>For conducting interviews</p>
       </div>
 
       <div class="app__platform">
@@ -83,7 +85,9 @@ section: download
       </div>
 
       <div class="app__intro">
-        Architect
+        <h4>Architect</h4>
+
+        <p>For building interviews</p>
       </div>
 
       <div class="app__platform">
@@ -109,7 +113,9 @@ section: download
       </div>
 
       <div class="app__intro">
-        Server
+        <h4>Server</h4>
+
+        <p>For storing interviews</p>
       </div>
 
       <div class="app__platform">
