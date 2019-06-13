@@ -43,7 +43,7 @@ navigation:
   - title: About
     url: /about.html
   - title: Documentation
-    url: http://documentation.networkcanvas.com
+    url: https://documentation.networkcanvas.com
   - title: Contact
     url: /contact.html
   - title: Feedback
