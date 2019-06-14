@@ -105,7 +105,8 @@
     a {
       color: $text-color-main;
       padding-bottom: 3px;
-      font-size: 1rem;
+      font-size: 1.2rem;
+      font-weight: 500;
       font-family: $quicksand-font;
       border-bottom: 2px solid transparent;
 
@@ -113,6 +114,19 @@
       &:hover {
         color: $color-primary;
         border-bottom: 2px solid $color-primary;
+      }
+
+      &.download-button {
+        display: inline-block;
+        text-transform: uppercase;
+        text-align: center;
+        border-radius: 25px;
+        color: white;
+        font-family: "Quicksand", sans-serif;
+        cursor: pointer;
+        padding: 17px 50px;
+        font-size: .75rem;
+        border-bottom: none;
       }
     }
   }

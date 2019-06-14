@@ -3,7 +3,6 @@ layout: page
 title: Download Network Canvas
 section: download
 ---
-
 <div class="app-suite">
 
   <div class="app-suite__platforms">
@@ -11,7 +10,7 @@ section: download
       <div class="app__hero"></div>
 
       <div class="app__intro">
-        Available on following platforms:
+
       </div>
 
       <div class="app__platform">
@@ -45,7 +44,7 @@ section: download
       </div>
 
       <div class="app__intro">
-        <h4>Network Canvas</h4>
+        <h3>Network Canvas</h3>
 
         <p>For conducting interviews</p>
       </div>
@@ -59,7 +58,7 @@ section: download
       </div>
 
       <div class="app__platform">
-        <a href="#" class="btn btn--sm btn--color-b">Download for<br />Linux (.deb)</a>
+        <a href="#" class="btn btn--sm btn--color-b">Download for<br />Linux (SNAP or AppImage)</a>
       </div>
 
       <div class="app__platform">
@@ -85,7 +84,7 @@ section: download
       </div>
 
       <div class="app__intro">
-        <h4>Architect</h4>
+        <h3>Architect</h3>
 
         <p>For building interviews</p>
       </div>
@@ -99,7 +98,7 @@ section: download
       </div>
 
       <div class="app__platform">
-        <a href="#" class="btn btn--sm btn--color-a">Download for<br />Linux (.deb)</a>
+        <a href="#" class="btn btn--sm btn--color-a">Download for<br />Linux (SNAP or AppImage)</a>
       </div>
     </div>
   </div>
@@ -113,7 +112,7 @@ section: download
       </div>
 
       <div class="app__intro">
-        <h4>Server</h4>
+        <h3>Server</h3>
 
         <p>For storing interviews</p>
       </div>
@@ -127,9 +126,11 @@ section: download
       </div>
 
       <div class="app__platform">
-        <a href="#" class="btn btn--sm btn--color-c">Download for<br />Linux (.deb)</a>
+        <a href="#" class="btn btn--sm btn--color-c">Download for<br />Linux (SNAP or AppImage)</a>
       </div>
     </div>
   </div>
 
 </div>
+
+## System Requirements

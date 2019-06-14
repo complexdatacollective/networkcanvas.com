@@ -38,9 +38,7 @@ gems:
 exclude: [README.md, deploy.sh,  node_modules, package.json, npm-debug.log, Gruntfile.js, Gemfile, Gemfile.lock, vendor]
 
 navigation:
-  - title: Home
-    url: /
-  - title: About
+  - title: About the Project
     url: /about.html
   - title: Documentation
     url: https://documentation.networkcanvas.com

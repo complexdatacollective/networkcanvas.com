@@ -3,10 +3,8 @@
   margin-top: 50px;
   color: #2d2955;
   background: #f2f6f7;
-  -webkit-box-shadow: 0 0.15rem 0 #000;
-  -moz-box-shadow: 0 0.15rem 0 #000;
-  box-shadow: 0 0.15rem 0 #000;
-  border-radius: 0.25rem;
+  box-shadow: 0 .5rem 0 rgba($shadow-color, 0.25);
+  border-radius: 1rem;
   width: 800px;
   margin: 0 auto;
   max-width: 100%;
@@ -51,9 +49,19 @@
     background-image: none;
     background-clip: padding-box;
     border: 1px solid rgba(0, 0, 0, 0.15);
-    border-radius: 0.25rem;
+    border-radius: 0.5rem;
     transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
   }
+
+
+  #mc_embed_signup div.mce_inline_error {
+    background-color: $color-cyber-grape;
+  }
+
+  #mc_embed_signup input.mce_inline_error {
+    border-color: $color-cyber-grape;
+  }
+
 }
 
 
