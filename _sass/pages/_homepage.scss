@@ -83,13 +83,14 @@ $sans-serif-bold: sans-serif;
     p {
       font-size: 1.45em;
       line-height: 1.25;
+      margin: 0;
+      padding-bottom: 1.5em;
     }
   }
 
   &__tagline {
     font-size: 1.45em;
     font-weight: 700;
-    padding-bottom: 1.85rem;
   }
 
   &__btn-wrap {
@@ -229,6 +230,7 @@ $sans-serif-bold: sans-serif;
     img {
       max-height: 1200px;
     }
+    display:none;
   }
 
   .container {
@@ -268,7 +270,7 @@ $sans-serif-bold: sans-serif;
 
   @media('min-width': 1800px) {
     &__bg-img {
-      right: -350px;
+      right: -150px;
     }
   }
 

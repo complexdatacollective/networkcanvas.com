@@ -53,15 +53,14 @@
     transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
   }
 
+}
 
-  #mc_embed_signup div.mce_inline_error {
-    background-color: $color-cyber-grape;
-  }
+#mc_embed_signup div.mce_inline_error {
+  background-color: $color-cyber-grape !important;
+}
 
-  #mc_embed_signup input.mce_inline_error {
-    border-color: $color-cyber-grape;
-  }
-
+#mc_embed_signup input.mce_inline_error {
+  border-color: $color-cyber-grape !important;
 }
 
 
