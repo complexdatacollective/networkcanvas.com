@@ -101,7 +101,7 @@ $sans-serif-bold: sans-serif;
   }
 
   &__btn-note {
-    margin-left: 40px;
+    margin-left: 10px;
     font-size: .75rem;
   }
 
@@ -167,23 +167,32 @@ $sans-serif-bold: sans-serif;
   &__wrap {
     display: flex;
     justify-content: space-between;
-    max-width: 78%;
+    max-width: 100%;
     margin: 0 auto;
+    background: #f2f6f7;
+    border-radius: 2rem;
+    padding: 2rem;
   }
 
   &__content {
-    width: 48%;
-    padding: 2rem;
-    background: #f2f6f7;
-    border-radius: 1rem;
+    padding: 1rem;
+    text-align: center;
+
+    @include mq(desktop-narrow, 'min-width') {
+      text-align: left;
+      padding: 2rem;
+      &:first-of-type {
+        border-right: 3px dotted #dae3e5; 
+      }
+    }
 
     img {
-      width: 105px;
+      width: 125px;
       margin: 0 auto 30px;
       background: #DAE3E5;
       padding: 1rem;
       border-radius: 50%;
-      height: 105px;
+      height: 125px;
     }
 
     h2 {
@@ -226,6 +235,7 @@ $sans-serif-bold: sans-serif;
 
 .about-block {
   position: relative;
+  padding-bottom: 5rem;
 
   &__bg-img {
     position: absolute;

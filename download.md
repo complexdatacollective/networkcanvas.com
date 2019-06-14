@@ -62,7 +62,7 @@ Thank you for taking the time to explore the software! Below you will find downl
       </div>
 
       <div class="app__platform">
-        <a href="#" class="app__platform-badge app__platform-badge--app-store">
+        <a href="https://testflight.apple.com/join/xHonPrKO" class="app__platform-badge app__platform-badge--app-store">
           <img src="/assets/img/app-store-badge.svg" />
         </a>
       </div>
