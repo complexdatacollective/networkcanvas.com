@@ -1,0 +1,157 @@
+.section-download {
+  $divider: #e7e7e7;
+
+  .app-suite {
+    display: block;
+    margin: 0 -.5rem;
+
+    &::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    &__app,
+    &__platforms {
+      box-sizing: border-box;
+      float: none;
+      width: auto;
+      margin-top: 1rem;
+
+      @include mq(tablet) {
+        float: left;
+        width: 25%;
+        padding: 0 .5rem;
+      }
+    }
+
+    &__platforms {
+      display: none;
+
+      @include mq(tablet) {
+        display: block;
+      }
+    }
+  }
+
+  .app {
+    margin-top: 50px;
+    position: relative;
+
+    @include mq(tablet) {
+      margin-top: 0px;
+    }
+
+    &__hero {
+      height: 100px;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &-logo {
+        height: 100px;
+
+        img {
+          height: 100px;
+        }
+      }
+
+
+      @include mq(tablet) {
+        width: 100%;
+        height: 0;
+        padding-bottom: 100%;
+        position: relative;
+
+        &-logo {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          img {
+            width: 80%;
+            height: auto;
+          }
+        }
+      }
+    }
+
+    &__intro {
+      display: flex;
+      flex-direction: column;
+      flex-grow: 0;
+      justify-content: flex-end;
+      align-items: center;
+      text-align: center;
+      height: 100px;
+      padding: 0 .5rem 1rem .5rem;
+
+      h4 {
+        margin-top: 0;
+      }
+
+      p {
+        margin: 0;
+      }
+    }
+
+    &__platform {
+      height: 80px;
+      border-top: 1px solid $divider;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0 1rem;
+
+      @include mq(tablet) {
+        height: 120px;
+      }
+
+      @include mq(desktop) {
+        height: 80px;
+      }
+
+      .btn {
+        display: block;
+        width: 100%;
+      }
+
+      &-badge {
+        img {
+          height: 50px;
+        }
+
+        @include mq(tablet) {
+          width: 80%;
+          display: block;
+
+          img {
+            width: 100%;
+            height: auto;
+          }
+        }
+      }
+    }
+
+    &--platforms {
+      .app__intro,
+      .app__platform {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        text-align: right;
+      }
+
+      .app__intro {
+        justify-content: flex-end;
+      }
+    }
+
+  }
+}
