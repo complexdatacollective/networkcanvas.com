@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Here is my page title
+title: Feedback
 ---
 
-<p>Here is lots of lovely content</p>
+{% include mailing-list.html %}
