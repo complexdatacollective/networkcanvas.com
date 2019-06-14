@@ -3,6 +3,8 @@ layout: page
 title: Download Network Canvas
 section: download
 ---
+Thank you for taking the time to explore the software! Below you will find download links for all three apps in the suite, on a variety of platforms.
+
 <div class="app-suite">
 
   <div class="app-suite__platforms">
@@ -45,8 +47,6 @@ section: download
 
       <div class="app__intro">
         <h3>Network Canvas</h3>
-
-        <p>For conducting interviews</p>
       </div>
 
       <div class="app__platform">
@@ -85,8 +85,6 @@ section: download
 
       <div class="app__intro">
         <h3>Architect</h3>
-
-        <p>For building interviews</p>
       </div>
 
       <div class="app__platform">
@@ -113,8 +111,6 @@ section: download
 
       <div class="app__intro">
         <h3>Server</h3>
-
-        <p>For storing interviews</p>
       </div>
 
       <div class="app__platform">
@@ -138,9 +134,16 @@ section: download
 The system requirements for the software vary by a number of factors, including intended use case. The requirements given below should be considered a minimum, with more powerful hardware resulting in correspondingly better performance.
 
 ### Network Canvas
-- **Desktop or Laptop Computers:** Windows 10, macOS 10.14+ with 2gb of RAM and 100mb of disk space.
-- **Tablet Devices:** Android 7.1+, iOS 10+. 9.7"+ screen with minimum 1280x900 effective resolution
+
+- **Desktop or Laptop Computers:**
+  - Windows 10, macOS 10.14+
+  - 2gb of RAM and 100mb of disk space.
+- **Tablet Devices:**
+  - Android 7.1+, iOS 10+
+  - 9.7"+ screen with a minimum of 1280x900 effective resolution
 
 ### Server and Architect
 
 - Windows 10 or macOS 10.14+
+- 2gb of RAM and 100mb of disk space
+- 1280 x 800 effective screen resolution
