@@ -50,15 +50,15 @@ section: download
       </div>
 
       <div class="app__platform">
-        <a href="#" class="btn btn--sm btn--color-b">Download for<br />Windows (32-bit)</a>
+        <a href="https://github.com/codaco/Network-Canvas/releases/download/v4.0.0/network-canvas-setup-4.0.0.exe" class="btn btn--sm btn--color-b">Download for<br />Windows</a>
       </div>
 
       <div class="app__platform">
-        <a href="#" class="btn btn--sm btn--color-b">Download for<br />macOS</a>
+        <a href="https://github.com/codaco/Network-Canvas/releases/download/v4.0.0/network-canvas-4.0.0.dmg" class="btn btn--sm btn--color-b">Download for<br />macOS</a>
       </div>
 
       <div class="app__platform">
-        <a href="#" class="btn btn--sm btn--color-b">Download for<br />Linux (SNAP or AppImage)</a>
+        <a href="https://github.com/codaco/Network-Canvas/releases/tag/v4.0.0" class="btn btn--sm btn--color-b">Download for<br />Linux</a>
       </div>
 
       <div class="app__platform">
@@ -68,7 +68,7 @@ section: download
       </div>
 
       <div class="app__platform">
-        <a href="#" class="app__platform-badge">
+        <a href="https://play.google.com/store/apps/details?id=org.codaco.networkCanvas" class="app__platform-badge">
           <img src="/assets/img/google-play-badge.png" />
         </a>
       </div>
@@ -90,15 +90,15 @@ section: download
       </div>
 
       <div class="app__platform">
-        <a href="#" class="btn btn--sm btn--color-a">Download for<br />Windows (32-bit)</a>
+        <a href="https://github.com/codaco/Architect/releases/download/v4.0.0/network-canvas-architect-setup-4.0.0.exe" class="btn btn--sm btn--color-a">Download for<br />Windows</a>
       </div>
 
       <div class="app__platform">
-        <a href="#" class="btn btn--sm btn--color-a">Download for<br />macOS</a>
+        <a href="https://github.com/codaco/Architect/releases/download/v4.0.0/network-canvas-architect-4.0.0.dmg" class="btn btn--sm btn--color-a">Download for<br />macOS</a>
       </div>
 
       <div class="app__platform">
-        <a href="#" class="btn btn--sm btn--color-a">Download for<br />Linux (SNAP or AppImage)</a>
+        <a href="https://github.com/codaco/Architect/releases/tag/v4.0.0" class="btn btn--sm btn--color-a">Download for<br />Linux</a>
       </div>
     </div>
   </div>
@@ -118,15 +118,15 @@ section: download
       </div>
 
       <div class="app__platform">
-        <a href="#" class="btn btn--sm btn--color-c">Download for<br />Windows (32-bit)</a>
+        <a href="https://github.com/codaco/Server/releases/download/v4.0.0/network-canvas-server-setup-4.0.0.exe" class="btn btn--sm btn--color-c">Download for<br />Windows</a>
       </div>
 
       <div class="app__platform">
-        <a href="#" class="btn btn--sm btn--color-c">Download for<br />macOS</a>
+        <a href="https://github.com/codaco/Server/releases/download/v4.0.0/network-canvas-server-4.0.0.dmg" class="btn btn--sm btn--color-c">Download for<br />macOS</a>
       </div>
 
       <div class="app__platform">
-        <a href="#" class="btn btn--sm btn--color-c">Download for<br />Linux (SNAP or AppImage)</a>
+        <a href="https://github.com/codaco/Server/releases/tag/v4.0.0" class="btn btn--sm btn--color-c">Download for<br />Linux</a>
       </div>
     </div>
   </div>
@@ -134,3 +134,13 @@ section: download
 </div>
 
 ## System Requirements
+
+The system requirements for the software vary by a number of factors, including intended use case. The requirements given below should be considered a minimum, with more powerful hardware resulting in correspondingly better performance.
+
+### Network Canvas
+- **Desktop or Laptop Computers:** Windows 10, macOS 10.14+ with 2gb of RAM and 100mb of disk space.
+- **Tablet Devices:** Android 7.1+, iOS 10+. 9.7"+ screen with minimum 1280x900 effective resolution
+
+### Server and Architect
+
+- Windows 10 or macOS 10.14+

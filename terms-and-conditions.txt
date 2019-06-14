@@ -1,0 +1,65 @@
+Terms of Use
+Last updated: June 11, 2019
+ 
+The Network Canvas suite is fully open source and free to the public to use and modify. These Terms of Use outline definitions, user rights and responsibilities, and our limitation of liability.
+
+
+Definitions
+
+ - the Network Canvas suite: a collection of open source software designed to collect and manage complex network data, comprised of three components ñ Architect, Network Canvas, and Server.
+ - the Software: the Network Canvas suite of tools.
+ - the Developer: the Complex Network Data Collective, Not For Profit
+ - the Funder: the work is presently funded by the NIH National Institute on Drug Abuse (R01 DA042711) through 2021 and by the NIH National Library of Medicine and Office of Behavioral and Social Sciences Research (R21 LM012578) through 2019.
+ - the User: anyone who employs the tools within the Network Canvas suite in a research, clinical, educational, commercial, or other setting.
+
+
+User Rights and Responsibilities
+
+The Network Canvas suite is licensed under General Public License (GPL) v3.0. Please see https://www.gnu.org/licenses/gpl.txt for details. It is important to note that this license requires that derivative works that use the source code from Network Canvas must also make this source code accessible.
+ 
+The Developer will make reasonable efforts to correct errors and update the Network Canvas suite to remain compatible with updated operating systems and environments throughout the duration of the grant. However, the Developer will not offer individualized support to the User unless a separate agreement is arranged.
+ 
+Any User with a technical background and interest is encouraged to make contributions to the code to enhance and improve the functionality of the Software for the broader community. While such enhancements are encouraged, it is the responsibility of the Developer to determine if such code will be integrated into the Network Canvas suite. The Developer is not obligated to accept code from external contributors into the main projectís repositories.
+ 
+It is the responsibility of the User to test the Software to ensure data are being collected and stored correctly. It is also the responsibility of the User to work with their institution of affiliation to make any requests for IT support to enable full functionality of the Software. For example, Users may require IT support from their institution to facilitate the remote transfer of data , which may include opening ports to allow the components of the suite to communicate, and the use of a Virtual Private Network (VPN) connection.
+
+
+Network Canvas Copyright, Citation and Attribution
+
+Under the GPL-3 license, the Network Canvas suite is 
+
+Copyright © 2019 Complex Data Collective All rights reserved.
+
+Gregory L. Phillips II, Northwestern University
+Michelle Birkett, Northwestern University
+Patrick Janulis, Northwestern University
+Bernard Hogan, University of Oxford 
+Noshir Contractor, Northwestern University
+Michael Bass, Northwestern University
+Joshua R. Melville, Northwestern University
+Bálint Néray, Northwestern University
+
+The Network Canvas development team
+
+In any publication or presentation created from research, clinical, educational, or other applicable use of the Network Canvas Suite or any of its components, we request that you acknowledge this with the following citation:
+
+Hogan, B., Melville, J. R., Phillips II, G. L., Janulis, P., Contractor, N., Mustanski, B. S., & Birkett, M. (2016). Evaluating the Paper-to-Screen Translation of Participant-Aided Sociograms with High-Risk Participants. In Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (pp. 5360-5371). ACM. Chicago
+
+Attribution requirements for Network Canvas, under the GPL-3 license, are the following (GPL Section 7):
+
+You agree to retain in Network Canvas, and any modifications to Network Canvas, the copyright, author attribution and URL information as provided above.
+You agree that Network Canvas and any modifications to Network Canvas will, when used, display the attribution:
+Based on the ëNetwork Canvasí software (networkcanvas.com). For license and citation information see [INSERT URL]
+
+If you are modifying Network Canvas or adopting any source code from Network Canvas for use in another application, you must ensure that the copyright and attributions mentioned above appear in the code of your modified version or application. These attributions must also appear when the package is loaded (e.g., via "library" or "require"). 
+
+
+Limitation of Liability
+
+This section should be read in addition to the clauses contained in the GPL license linked above.
+ 
+The User agrees and undertakes to indemnify and hold the Developer harmless against any and all claims, loss or damage, including fees, penalties or fines and third-party claims, and attorneysí fees arising from the Userís use of the Network Canvas suite. Further, the User shall be obliged to indemnify, defend and/or hold harmless the Developer and its agents, trustees, officers, medical affiliates, employees, and their respective successors, heirs, and assignees against any liability, damage, loss or expense incurred in connection with the Userís use of the Network Canvas suite.
+ 
+Consent to the Userís use of the Network Canvas suite is given ëAS ISí, without any accompanying services or improvements. The Developer does not accept any liability resulting from the Userís use of the Network Canvas suite. The three components of the Network Canvas suite are supplied to the User with no warranties or representations of any kind as to the accuracy, currency, or the merchantability or fitness of the Network Canvas suite for a particular purpose.
+ 
+Neither the Developer nor any party involved in creating, producing, or delivering the Network Canvas suite shall be liable for any damages, including without limitation, direct, incidental, consequential, indirect, or punitive damages arising out of access to, use of, alterations of, or inability to use the Network Canvas suite, or any errors or omissions in the content thereof.
