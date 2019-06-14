@@ -4,35 +4,7 @@ layout: default
 
 <div class="home-background"></div>
 
-<header class="header">
-    <div class="header__container">
-
-        <div class="header__logo">
-            <a href="#">
-                <img src="assets/img/logo.svg" alt="Network Canvas">
-            </a>
-        </div>
-
-        <div class="header__menu-trigger" aria-label="Opens nav menu" aria-expanded="false" aria-controls="nav" tabindex="0">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-
-        <div class="header__nav">
-            <nav>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Documentation</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><a href="">Feedback</a></li>
-                    <li><a href="">Project Team</a></li>
-                </ul>
-            </nav>
-        </div>
-
-    </div>
-</header>
+{% include header.html %}
 
 <main class="site__content">
 
@@ -58,7 +30,7 @@ layout: default
                     </p>
 
                     <div class="hero__btn-wrap">
-                        <a href="#" class="btn btn--md btn--color-b">
+                        <a href="/download.html" class="btn btn--md btn--color-b">
                             Download Now
                         </a>
                         <div class="hero__btn-note">
@@ -78,7 +50,7 @@ layout: default
                     <img src="assets/img/robot.svg" alt="Just getting started?">
                     <h2>Just getting started?</h2>
                     <p>We have created extensive documentation, convering all aspects of creating, deploying, and managing a study using Network Canvas, including developer documentation and installation guides.</p>
-                    <a class="btn btn--md btn--color-a">
+                    <a href="https://documentation.networkcanvas.com" class="btn btn--md btn--color-a">
                         Documentation
                     </a>
                 </div>
@@ -87,7 +59,7 @@ layout: default
                     <img src="assets/img/lightbulb.svg" alt="Help us improve">
                     <h2>Help us improve</h2>
                     <p>Network Canvas is an open source project driven by community feedback. Please take the time to share your thoughts on the software, suggest new features, or to tell us where we could do better.</p>
-                    <a class="btn btn--md btn--color-c">
+                    <a href="/feedback.html" class="btn btn--md btn--color-c">
                         Feedback
                     </a>
                 </div>
@@ -135,33 +107,4 @@ layout: default
 
 </main>
 
-<footer class="footer">
-    <div class="container">
-        <div class="footer__content-wrap">
-            <div class="footer__logo">
-                <img src="assets/img/logo.svg" alt="Network Canvas">
-            </div>
-
-            <div class="footer__nav">
-                <nav>
-                    <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Documentation</a></li>
-                        <li><a href="">Contact</a></li>
-                        <li><a href="">Feedback</a></li>
-                        <li><a href="">Project Team</a></li>
-                        <li><a class="btn btn--md btn--color-d" href="">Download Now</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="footer__privacy-block">
-                <ul>
-                    <li><a href="">Terms of Use</a></li>
-                    <li><a href="">Privacy Policy</a></li>
-                    <li>Copyright Complex Data Collective 2019</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-</footer>
+{% include footer.html %}
