@@ -1,13 +1,16 @@
 #mc_embed_signup {
   padding: 50px;
   margin-top: 50px;
-  color: #2d2955;
-  background: #f2f6f7;
+  background: #2d2955;
+  color: #f2f6f7;
   box-shadow: 0 .5rem 0 rgba($shadow-color, 0.25);
   border-radius: 1rem;
-  width: 800px;
   margin: 0 auto;
   max-width: 100%;
+
+  h1, h4 {
+    color: white;
+  }
 
   label {
     display: block;
