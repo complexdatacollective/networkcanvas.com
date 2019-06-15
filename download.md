@@ -137,7 +137,7 @@ The system requirements for the software vary by a number of factors, including 
 
 - **Desktop or Laptop Computers:**
   - Windows 10, macOS 10.14+
-  - 2gb of RAM and 100mb of disk space.
+  - 2GB of RAM and 100MB of disk space.
 - **Tablet Devices:**
   - Android 7.1+, iOS 10+
   - 9.7"+ screen with a minimum of 1280x900 effective resolution
@@ -145,5 +145,5 @@ The system requirements for the software vary by a number of factors, including 
 ### Server and Architect
 
 - Windows 10 or macOS 10.14+
-- 2gb of RAM and 100mb of disk space
-- 1280 x 800 effective screen resolution
+- 2GB of RAM and 100MB of disk space
+- 1280x800 effective screen resolution
