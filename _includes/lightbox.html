@@ -174,7 +174,7 @@ $(document).ready(function() {
 	//add the youtube lightbox on click
 	$("a.lightbox-youtube").click(function(event){
 		event.preventDefault();
-		$('<div class="lightbox"><a id="close"></a><a id="next">&rsaquo;</a><a id="prev">&lsaquo;</a><div class="videoWrapperContainer"><div class="videoWrapper"><iframe src="https://www.youtube.com/embed/'+$(this).attr('data-id')+'?autoplay=1&showinfo=0&rel=0"></iframe></div></div></div>').appendTo('body');
+		$('<div class="lightbox"><a id="close"></a><a id="next">&rsaquo;</a><a id="prev">&lsaquo;</a><div class="videoWrapperContainer"><div class="videoWrapper"><iframe src="https://www.youtube.com/embed/'+$(this).attr('data-id')+'?autoplay=1&showinfo=0&rel=0" allowfullscreen></iframe></div></div></div>').appendTo('body');
 	});
 	//add the image lightbox on click
 	$("a.lightbox-image").click(function(event){
