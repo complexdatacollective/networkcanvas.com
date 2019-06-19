@@ -5,7 +5,7 @@ title: Feedback
 
 Direct feedback from the research community has been an integral part of the Network Canvas project from the start. Your feedback and ideas help us continue improving this tool for the whole community.
 
-Please contact us at [info@networkcanvas.com](info@networkcanvas.com) to:
+Please contact us at [info@networkcanvas.com](mailto:info@networkcanvas.com) to:
 
 - Share your ideas for feature improvements
 - Report potential bugs
