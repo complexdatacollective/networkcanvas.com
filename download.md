@@ -114,15 +114,15 @@ Thank you for taking the time to explore the software! Below you will find downl
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/codaco/Server/releases/download/v4.0.2/network-canvas-server-setup-4.0.2.exe" class="btn btn--sm btn--color-c">Download for<br />Windows</a>
+        <a href="https://github.com/codaco/Server/releases/download/v4.0.1/network-canvas-server-setup-4.0.1.exe" class="btn btn--sm btn--color-c">Download for<br />Windows</a>
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/codaco/Server/releases/download/v4.0.2/network-canvas-server-4.0.2.dmg" class="btn btn--sm btn--color-c">Download for<br />macOS</a>
+        <a href="https://github.com/codaco/Server/releases/download/v4.0.1/network-canvas-server-4.0.1.dmg" class="btn btn--sm btn--color-c">Download for<br />macOS</a>
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/codaco/Server/releases/tag/v4.0.2" class="btn btn--sm btn--color-c">Download for<br />Linux</a>
+        <a href="https://github.com/codaco/Server/releases/tag/v4.0.1" class="btn btn--sm btn--color-c">Download for<br />Linux</a>
       </div>
     </div>
   </div>
