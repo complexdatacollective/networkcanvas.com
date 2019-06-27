@@ -50,19 +50,19 @@ Thank you for taking the time to explore the software! Below you will find downl
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/codaco/Network-Canvas/releases/download/v4.0.1/network-canvas-setup-4.0.1.exe" class="btn btn--sm btn--color-b">Download for<br />Windows</a>
+        <a href="https://github.com/codaco/Network-Canvas/releases/download/v4.0.2/network-canvas-setup-4.0.2.exe" class="btn btn--sm btn--color-b">Download for<br />Windows</a>
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/codaco/Network-Canvas/releases/download/v4.0.1/network-canvas-4.0.1.dmg" class="btn btn--sm btn--color-b">Download for<br />macOS</a>
+        <a href="https://github.com/codaco/Network-Canvas/releases/download/v4.0.2/network-canvas-4.0.2.dmg" class="btn btn--sm btn--color-b">Download for<br />macOS</a>
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/codaco/Network-Canvas/releases/tag/v4.0.1" class="btn btn--sm btn--color-b">Download for<br />Linux</a>
+        <a href="https://github.com/codaco/Network-Canvas/releases/tag/v4.0.2" class="btn btn--sm btn--color-b">Download for<br />Linux</a>
       </div>
 
       <div class="app__platform">
-        <a href="https://testflight.apple.com/join/xHonPrKO" class="app__platform-badge app__platform-badge--app-store">
+        <a href="https://apps.apple.com/us/app/network-canvas/id1233134698?ls=1" class="app__platform-badge app__platform-badge--app-store">
           <img src="/assets/img/app-store-badge.svg" />
         </a>
       </div>
@@ -88,15 +88,15 @@ Thank you for taking the time to explore the software! Below you will find downl
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/codaco/Architect/releases/download/v4.0.1/network-canvas-architect-setup-4.0.1.exe" class="btn btn--sm btn--color-a">Download for<br />Windows</a>
+        <a href="https://github.com/codaco/Architect/releases/download/v4.0.2/network-canvas-architect-setup-4.0.2.exe" class="btn btn--sm btn--color-a">Download for<br />Windows</a>
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/codaco/Architect/releases/download/v4.0.1/network-canvas-architect-4.0.1.dmg" class="btn btn--sm btn--color-a">Download for<br />macOS</a>
+        <a href="https://github.com/codaco/Architect/releases/download/v4.0.2/network-canvas-architect-4.0.2.dmg" class="btn btn--sm btn--color-a">Download for<br />macOS</a>
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/codaco/Architect/releases/tag/v4.0.1" class="btn btn--sm btn--color-a">Download for<br />Linux</a>
+        <a href="https://github.com/codaco/Architect/releases/tag/v4.0.2" class="btn btn--sm btn--color-a">Download for<br />Linux</a>
       </div>
     </div>
   </div>
@@ -114,15 +114,15 @@ Thank you for taking the time to explore the software! Below you will find downl
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/codaco/Server/releases/download/v4.0.1/network-canvas-server-setup-4.0.1.exe" class="btn btn--sm btn--color-c">Download for<br />Windows</a>
+        <a href="https://github.com/codaco/Server/releases/download/v4.0.2/network-canvas-server-setup-4.0.2.exe" class="btn btn--sm btn--color-c">Download for<br />Windows</a>
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/codaco/Server/releases/download/v4.0.1/network-canvas-server-4.0.1.dmg" class="btn btn--sm btn--color-c">Download for<br />macOS</a>
+        <a href="https://github.com/codaco/Server/releases/download/v4.0.2/network-canvas-server-4.0.2.dmg" class="btn btn--sm btn--color-c">Download for<br />macOS</a>
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/codaco/Server/releases/tag/v4.0.1" class="btn btn--sm btn--color-c">Download for<br />Linux</a>
+        <a href="https://github.com/codaco/Server/releases/tag/v4.0.2" class="btn btn--sm btn--color-c">Download for<br />Linux</a>
       </div>
     </div>
   </div>
