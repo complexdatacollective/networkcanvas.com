@@ -88,15 +88,15 @@ Thank you for taking the time to explore the software! Below you will find downl
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/codaco/Architect/releases/download/v4.0.2/network-canvas-architect-setup-4.0.2.exe" class="btn btn--sm btn--color-a">Download for<br />Windows</a>
+        <a href="https://github.com/codaco/Architect/releases/download/v4.1.0/network-canvas-architect-setup-4.1.0.exe" class="btn btn--sm btn--color-a">Download for<br />Windows</a>
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/codaco/Architect/releases/download/v4.0.2/network-canvas-architect-4.0.2.dmg" class="btn btn--sm btn--color-a">Download for<br />macOS</a>
+        <a href="https://github.com/codaco/Architect/releases/download/v4.1.0/network-canvas-architect-4.1.0.dmg" class="btn btn--sm btn--color-a">Download for<br />macOS</a>
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/codaco/Architect/releases/tag/v4.0.2" class="btn btn--sm btn--color-a">Download for<br />Linux</a>
+        <a href="https://github.com/codaco/Architect/releases/tag/v4.1.0" class="btn btn--sm btn--color-a">Download for<br />Linux</a>
       </div>
     </div>
   </div>
