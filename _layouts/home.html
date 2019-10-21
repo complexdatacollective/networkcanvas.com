@@ -11,7 +11,7 @@ layout: default
     <section class="hero">
         <div class="container">
             <h1 class="hero__heading">
-                Simplifying complex<br>network data collection.
+                Software to simplify complex <br>network data collection.
             </h1>
             <div class="hero__content-wrap">
 
@@ -24,46 +24,31 @@ layout: default
                 </div>
 
                 <div class="hero__content">
-                    <p>Most current survey tools are optimized for capturing individual rather than network-level data. Those that do capture network data are often tedius and cumbersome.</p>
-                    <p class="hero__tagline">
-                        Network Canvas is different.
-                    </p>
-
-                    <div class="hero__btn-wrap">
-                        <a href="/download.html" class="btn btn--md btn--color-b">
-                            Download
-                        </a>
-                        <div class="hero__btn-note">
-                            <span>or keep scrolling to learn more</span>
-                        </div>
-                    </div>
-
+                    <p>Network Canvas is a <strong>free</strong> set of software for surveying personal networks, designed around the needs of both researchers and participants.</p>
+                </div>
+            </div>
+            <div class="hero__button">
+                <a href="/download.html" class="btn btn--md btn--color-b">
+                    Download Now
+                </a>
+                <div class="hero__btn-note">
+                    <span>or keep scrolling to learn more</span>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="cta-block">
+    <section class="workflow-block">
         <div class="container">
-            <div class="cta-block__wrap">
-                <div class="cta-block__content">
-                    <img src="assets/img/robot.svg" alt="Just getting started?">
-                    <h2>Just getting started?</h2>
-                    <p>We have created extensive documentation, convering all aspects of creating, deploying, and managing a study using Network Canvas.</p>
-                    <a href="https://documentation.networkcanvas.com" class="btn btn--md btn--color-a">
-                        Documentation
-                    </a>
-                </div>
+            <h1>An end-to-end workflow for your research</h1>
 
-                <div class="cta-block__content">
-                    <img src="assets/img/lightbulb.svg" alt="Help us improve">
-                    <h2>Help us improve</h2>
-                    <p>This is an open source community-driven project. Please share your thoughts on the software, suggest new features, or to tell us where we could improve!</p>
-                    <a href="/feedback.html" class="btn btn--md btn--color-c">
-                        Feedback
-                    </a>
-                </div>
+            <div>
+                <p>Network Canvas has a tool for survey design, a tool for interviewing, and a tool for secure case management. Through these three components – Architect, Server, and the Network Canvas application itself – researchers can easily design, capture, and export network data.</p>
             </div>
+            <div>
+                <img class="workflow-block__icon-img" src="assets/img/workflow.svg" alt="Workflow Icons">
+            </div>
+
         </div>
     </section>
 
@@ -72,8 +57,8 @@ layout: default
             <img src="assets/img/blob-gray-ta.svg" alt="Background Blob Graphic">
         </div>
         <div class="container">
+            <h1>Learn more</h1>
             <div class="blurb">
-                    <h2>Network Canvas is a set of apps for surveying personal networks</h2>
                     <p>Our goal is to build a suite of tools for the research community that is high quality, free, safe for research, and built to last. Watch our project video to learn more about why we created Network Canvas.</p>
                 </div>
             <div class="video">
@@ -82,26 +67,45 @@ layout: default
         </div>
     </section>
 
-    <section class="workflow-block">
+    <section class="mailing-list-block">
         <div class="container">
+            <h1>Keep in touch</h1>
+            <p>If you would like to stay in touch with the project, and find out about events and releases as soon as they happen, we encourage you to join our mailing list, and to follow us on Twitter. We are considerate email partners, and will only ever use this list for important announcements.</p>
             <div class="grid">
-                <div class="grid__col-half">
-                    <img class="workflow-block__icon-img" src="assets/img/icons-3-up.svg" alt="Workflow Icons">
+                <div class="grid__col-half mailing-list">
+                    {% include mailing-list.html %}
                 </div>
-
-                <div class="grid__col-half">
-                    <h2>An end-to-end workflow for your research</h2>
-                    <p>Network Canvas has a tool for survey design, a tool for interviewing, and a tool for secure case management. Through these three components – Architect, Server, and the Network Canvas application itself – researchers can easily design, capture, and export network data.</p>
+                <div class="grid__col-half twitter-feed">
+                        <a class="twitter-timeline" data-height="600" data-link-color="#00C9A2" href="https://twitter.com/NetworkCanvas?ref_src=twsrc%5Etfw">Tweets by NetworkCanvas</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="mailing-list-block">
+    <section class="cta-block">
         <div class="container">
-            {% include mailing-list.html %}
+            <h1>What next?</h1>
+            <div class="cta-block__wrap">        
+                <div class="cta-block__content">
+                    <img src="assets/img/robot.svg" alt="Just getting started?">
+                    <h2>Looking for help?</h2>
+                    <p>We have created extensive documentation, convering all aspects of creating, deploying, and managing a study using Network Canvas.</p>
+                    <a href="https://documentation.networkcanvas.com" class="btn btn--md btn--color-a">
+                        Documentation
+                    </a>
+                </div>
+
+                <div class="cta-block__content">
+                    <img src="assets/img/lightbulb.svg" alt="Help us improve">
+                    <h2>Want to collaborate?</h2>
+                    <p>This is an open source community-driven project. Please share your thoughts on the software, suggest new features, or to tell us where we could improve!</p>
+                    <a href="/feedback.html" class="btn btn--md btn--color-c">
+                        Feedback
+                    </a>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
 
 </main>
 
