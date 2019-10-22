@@ -30,7 +30,7 @@ $sans-serif-bold: sans-serif;
 
 .hero {
   &__heading {
-    font-size: 3.5rem !important;
+    font-size: 3.5rem;
     text-align: center;
     margin-bottom: 0;
     padding-bottom: 80px;
@@ -47,7 +47,7 @@ $sans-serif-bold: sans-serif;
   &__video-wrap {
     width: 46%;
     height: 100%;
-    min-height: 364px; // try to prevent snap in before video loads
+    min-height: auto;
     position: relative;
     overflow: hidden;
     border: 18px solid $color-cyber-grape;
@@ -97,7 +97,10 @@ $sans-serif-bold: sans-serif;
 
   &__button{
     text-align: center;
-    margin-top: 7rem;
+
+    @include mq(tablet, 'min-width') {
+      margin-top: 7rem;
+    }
 
     .btn {
       padding: 2rem 6rem;
@@ -167,17 +170,15 @@ $sans-serif-bold: sans-serif;
 }
 
 .container {
-  h1 {
-    text-align: center;
-    font-size: 2.5rem;
+  .section-heading {
+    text-align: center;    
+    @include mq(desktop-narrow, 'min-width') {
+      font-size: 2.5rem;
+    }
   }
 }
 
 .cta-block {
-  background: #f2f6f7;
-  background-image: url('../img/next-bg.svg');
-  background-size: cover;
-  margin-top: 5em;
 
   &__wrap {
     display: flex;
@@ -185,6 +186,7 @@ $sans-serif-bold: sans-serif;
     max-width: 100%;
     margin: 0 auto;
     border-radius: 2rem;
+    background: #f2f6f7;
     padding: 2rem;
   }
 
@@ -250,7 +252,6 @@ $sans-serif-bold: sans-serif;
 
 .about-block {
   position: relative;
-  margin-top: 5em;
   @include mq(desktop-narrow, 'min-width') {
     padding-bottom: 5rem;
     background-image: url('../img/blob-gray.svg');
@@ -376,15 +377,10 @@ $sans-serif-bold: sans-serif;
 
 .workflow-block {
   position: relative;
-  margin-top: 5em;
 
   .container {
     position: relative;
     z-index: 100;
-  }
-
-  &__icon-img {
-    height: 90%;
   }
 
   .grid__col-half {
@@ -394,13 +390,17 @@ $sans-serif-bold: sans-serif;
     flex-direction: column;
   }
 
-   @include mq(ipad, 'max-width') {
+  &__icon-img {
+    display: inline-block;
+  }
+
+   @include mq(tablet, 'max-width') {
     text-align: center;
     background-image: none;
     padding: 3em 0;
 
     &__icon-img {
-      width: 300px;
+      width: 80%;
       max-width: 100%;
       height: auto;
       margin: 0 auto 40px;
