@@ -229,12 +229,7 @@ $sans-serif-bold: sans-serif;
     }
   }
 
-  @include mq(desktop-narrow, 'max-width') {
-    margin-top: 3em;
-  }
-
   @include mq(tablet, 'max-width') {
-    margin-top: 1.5em;
 
     &__wrap {
       flex-direction: column;
@@ -401,9 +396,8 @@ $sans-serif-bold: sans-serif;
 
     &__icon-img {
       width: 80%;
-      max-width: 100%;
+      max-width: 450px;
       height: auto;
-      margin: 0 auto 40px;
     }
    }
 }
@@ -427,5 +421,9 @@ $sans-serif-bold: sans-serif;
     border-radius: 1rem;
     margin: 0 auto;
     max-width: 100%;
+
+    @include mq(tablet, 'max-width') {
+      margin-top: 2em;
+    }
   }
 }
