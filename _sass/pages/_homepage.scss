@@ -29,6 +29,7 @@ $sans-serif-bold: sans-serif;
 }
 
 .hero {
+  padding-top: 0 !important;
   &__heading {
     font-size: 3.5rem;
     text-align: center;
@@ -100,13 +101,13 @@ $sans-serif-bold: sans-serif;
 
     @include mq(tablet, 'min-width') {
       margin-top: 7rem;
+      .btn {
+        padding: 2rem 6rem;
+        border-radius: 3rem;
+        font-size: 1.25rem;
+      }
     }
 
-    .btn {
-      padding: 2rem 6rem;
-      border-radius: 3rem;
-      font-size: 1.25rem;
-    }
   }
 
   &__btn-note {
@@ -392,7 +393,6 @@ $sans-serif-bold: sans-serif;
    @include mq(tablet, 'max-width') {
     text-align: center;
     background-image: none;
-    padding: 3em 0;
 
     &__icon-img {
       width: 80%;
