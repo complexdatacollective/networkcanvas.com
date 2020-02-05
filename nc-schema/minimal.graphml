@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml 
+    xmlns="http://graphml.graphdrawing.org/xmlns"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns graphml+netcanvas.xsd"
+    xmlns:nc="http://networkcanvas.com/nc-schema"
+    nc:case="12345"
+>
+    <graph edgedefault="directed">
+        <node id="n0"/>
+        <node id="n1" />
+        <edge source="n0" target="n1"/>
+    </graph>
+</graphml>

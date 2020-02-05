@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsi:schema 
+<xs:schema 
     targetNamespace="http://graphml.graphdrawing.org/xmlns"
     xmlns="http://graphml.graphdrawing.org/xmlns"
     xmlns:nc="http://networkcanvas.com/nc-schema"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
     elementFormDefault="qualified"
     attributeFormDefault="unqualified"
 >
-    <xsi:import 
+    <xs:import 
         namespace="http://networkcanvas.com/nc-schema"
         schemaLocation="nc-types.xsd"
     />
 
-    <xsi:redefine schemaLocation="http://graphml.graphdrawing.org/xmlns/1.1/graphml.xsd">
-        <xsi:attributeGroup name="graphml.extra.attrib">
-            <xsi:attributeGroup ref="graphml.extra.attrib"/>
-            <xsi:attribute ref="nc:case" use="optional"/>
-        </xsi:attributeGroup>
-    </xsi:redefine>
-</xsi:schema>
+    <xs:redefine schemaLocation="http://graphml.graphdrawing.org/xmlns/1.1/graphml.xsd">
+        <xs:attributeGroup name="graphml.extra.attrib">
+            <xs:attributeGroup ref="graphml.extra.attrib"/>
+            <xs:attribute ref="nc:case" use="optional"/>
+        </xs:attributeGroup>
+    </xs:redefine>
+</xs:schema>
