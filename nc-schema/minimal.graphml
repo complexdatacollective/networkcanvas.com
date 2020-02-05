@@ -4,7 +4,9 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns graphml+netcanvas.xsd"
     xmlns:nc="http://networkcanvas.com/nc-schema"
-    nc:case="12345"
+    nc:caseID="12345"
+    nc:sessionUUID="1234-5678-9123-1234"
+    nc:protocolUUID="9170f62f-4d06-4af9-8120-8dd7836e37f7"
 >
     <graph edgedefault="directed">
         <node id="n0"/>

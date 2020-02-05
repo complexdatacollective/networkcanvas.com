@@ -15,7 +15,9 @@
     <xs:redefine schemaLocation="http://graphml.graphdrawing.org/xmlns/1.1/graphml.xsd">
         <xs:attributeGroup name="graphml.extra.attrib">
             <xs:attributeGroup ref="graphml.extra.attrib"/>
-            <xs:attribute ref="nc:case" use="optional"/>
+            <xs:attribute ref="nc:caseID" use="required"/>
+            <xs:attribute ref="nc:sessionUUID" use="required"/>
+            <xs:attribute ref="nc:protocolUUID" use="required"/>
         </xs:attributeGroup>
     </xs:redefine>
 </xs:schema>
