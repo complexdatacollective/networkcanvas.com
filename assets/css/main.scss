@@ -3,25 +3,5 @@
 # only Main files contain this front matter, not partials.
 ---
 
-// Utilities
-@import 'fonts';
-@import 'variables';
-@import 'mixins';
-@import 'base';
-@import 'typography';
-
-// Components
-@import 'buttons';
-@import 'forms';
-
-// Layout
-@import 'header';
-@import 'footer';
-@import 'layout';
-@import 'grid';
-
 // Pages
-@import 'pages/homepage';
-@import 'pages/download';
-@import 'mailing-list';
-
+@import 'custom';

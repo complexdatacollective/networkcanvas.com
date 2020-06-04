@@ -100,9 +100,9 @@ $sans-serif-bold: sans-serif;
     text-align: center;
 
     @include mq(tablet, 'min-width') {
-      margin-top: 7rem;
+      margin-top: 5rem;
       .btn {
-        padding: 2rem 6rem;
+        padding: 1.5rem 4rem;
         border-radius: 3rem;
         font-size: 1.25rem;
       }

@@ -131,19 +131,4 @@ Thank you for taking the time to explore the software! Below you will find downl
 
 ## System Requirements
 
-The system requirements for the software vary by a number of factors, including intended use case. The requirements given below should be considered a minimum, with more powerful hardware resulting in correspondingly better performance.
-
-### Network Canvas
-
-- **Desktop or Laptop Computers:**
-  - Windows 10, macOS 10.14+
-  - 2GB of RAM and 100MB of disk space.
-- **Tablet Devices:**
-  - Android 7.1+, iOS 10+
-  - 9.7"+ screen with a minimum of 1280x900 effective resolution
-
-### Server and Architect
-
-- Windows 10 or macOS 10.14+
-- 2GB of RAM and 100MB of disk space
-- 1280x800 effective screen resolution
+Please consult our documentatio on information on <a href="https://documentation.networkcanvas.com/docs/installation-guide/#system-requirements">system requirements</a> and <a href="https://documentation.networkcanvas.com/docs/research-design/choosing-hardware/">choosing hardware for your study</a>.
