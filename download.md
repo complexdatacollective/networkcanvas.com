@@ -50,15 +50,15 @@ Thank you for taking the time to explore the software! Below you will find downl
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/codaco/Network-Canvas/releases/download/v5.1.0/network-canvas-setup-5.1.0.exe" class="btn btn--sm btn--color-b">Download for<br />Windows</a>
+        <a href="https://github.com/complexdatacollective/Network-Canvas/releases/download/v5.1.0/network-canvas-setup-5.1.0.exe" class="btn btn--sm btn--color-b">Download for<br />Windows</a>
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/codaco/Network-Canvas/releases/download/v5.1.0/network-canvas-5.1.0.dmg" class="btn btn--sm btn--color-b">Download for<br />macOS</a>
+        <a href="https://github.com/complexdatacollective/Network-Canvas/releases/download/v5.1.0/network-canvas-5.1.0.dmg" class="btn btn--sm btn--color-b">Download for<br />macOS</a>
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/codaco/Network-Canvas/releases/tag/v5.1.0" class="btn btn--sm btn--color-b">Download for<br />Linux</a>
+        <a href="https://github.com/complexdatacollective/Network-Canvas/releases/tag/v5.1.0" class="btn btn--sm btn--color-b">Download for<br />Linux</a>
       </div>
 
       <div class="app__platform">
@@ -88,15 +88,15 @@ Thank you for taking the time to explore the software! Below you will find downl
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/codaco/Architect/releases/download/v5.1.1/network-canvas-architect-setup-5.1.1.exe" class="btn btn--sm btn--color-a">Download for<br />Windows</a>
+        <a href="https://github.com/complexdatacollective/Architect/releases/download/v5.1.1/network-canvas-architect-setup-5.1.1.exe" class="btn btn--sm btn--color-a">Download for<br />Windows</a>
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/codaco/Architect/releases/download/v5.1.1/network-canvas-architect-5.1.1.dmg" class="btn btn--sm btn--color-a">Download for<br />macOS</a>
+        <a href="https://github.com/complexdatacollective/Architect/releases/download/v5.1.1/network-canvas-architect-5.1.1.dmg" class="btn btn--sm btn--color-a">Download for<br />macOS</a>
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/codaco/Architect/releases/tag/v5.1.1" class="btn btn--sm btn--color-a">Download for<br />Linux</a>
+        <a href="https://github.com/complexdatacollective/Architect/releases/tag/v5.1.1" class="btn btn--sm btn--color-a">Download for<br />Linux</a>
       </div>
     </div>
   </div>
@@ -114,15 +114,15 @@ Thank you for taking the time to explore the software! Below you will find downl
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/codaco/Server/releases/download/v5.1.0/network-canvas-server-setup-5.1.0.exe" class="btn btn--sm btn--color-c">Download for<br />Windows</a>
+        <a href="https://github.com/complexdatacollective/Server/releases/download/v5.1.0/network-canvas-server-setup-5.1.0.exe" class="btn btn--sm btn--color-c">Download for<br />Windows</a>
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/codaco/Server/releases/download/v5.1.0/network-canvas-server-5.1.0.dmg" class="btn btn--sm btn--color-c">Download for<br />macOS</a>
+        <a href="https://github.com/complexdatacollective/Server/releases/download/v5.1.0/network-canvas-server-5.1.0.dmg" class="btn btn--sm btn--color-c">Download for<br />macOS</a>
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/codaco/Server/releases/tag/v5.1.0" class="btn btn--sm btn--color-c">Download for<br />Linux</a>
+        <a href="https://github.com/complexdatacollective/Server/releases/tag/v5.1.0" class="btn btn--sm btn--color-c">Download for<br />Linux</a>
       </div>
     </div>
   </div>

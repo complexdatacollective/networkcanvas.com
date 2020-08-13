@@ -13,7 +13,7 @@ Please contact us at [info@networkcanvas.com](mailto:info@networkcanvas.com) to:
 - Discuss your user experience
 - Ask technical questions
 
-For those technically-minded, visit our [github pages](https://github.com/codaco/) to join development discussions and provide your feedback there.
+For those technically-minded, visit our [github pages](https://github.com/complexdatacollective/) to join development discussions and provide your feedback there.
 
 We look forward to hearing from you!
 

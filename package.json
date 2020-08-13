@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codaco/networkcanvas-web.git"
+    "url": "git+https://github.com/complexdatacollective/networkcanvas-web.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/codaco/networkcanvas-web/issues"
+    "url": "https://github.com/complexdatacollective/networkcanvas-web/issues"
   },
-  "homepage": "https://github.com/codaco/networkcanvas-web#readme",
+  "homepage": "https://github.com/complexdatacollective/networkcanvas-web#readme",
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-cli": "^1.2.0",
