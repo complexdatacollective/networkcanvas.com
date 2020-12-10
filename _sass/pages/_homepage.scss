@@ -36,19 +36,20 @@ $sans-serif-bold: sans-serif;
   }
 
   &__container {
-    border: 1px solid $color-neon-coral;
-    color: $color-neon-coral;
-    border-radius: 10px;
+    background: $color-sea-serpent;
+    color: white;
+    border-radius: 15px;
     display: inline-block;
-    max-width: 500px;
-    padding: 10px 15px;
+    max-width: 700px;
+    padding: 10px 20px 10px 15px;
 
-    img, svg { 
-      float: left;
-      margin-right: 5px;
-      path {
-        fill: $color-neon-coral;
-      }
+    span {
+      margin-right: 2px;
+    }
+
+    a {
+      font-weight: bold;
+      color: white;
     }
   }
 }
