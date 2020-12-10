@@ -28,6 +28,31 @@ $sans-serif-bold: sans-serif;
   }
 }
 
+.announcement {
+  padding: 0;
+
+  .container {
+    text-align: center;
+  }
+
+  &__container {
+    border: 1px solid $color-neon-coral;
+    color: $color-neon-coral;
+    border-radius: 10px;
+    display: inline-block;
+    max-width: 500px;
+    padding: 10px 15px;
+
+    img, svg { 
+      float: left;
+      margin-right: 5px;
+      path {
+        fill: $color-neon-coral;
+      }
+    }
+  }
+}
+
 .hero {
   padding-top: 0 !important;
   &__heading {
