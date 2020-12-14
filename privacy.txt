@@ -3,7 +3,7 @@ Last updated: June 11, 2019
 
 Definitions
 
-The Complex Data Collective ("us," "we," or "our") is the creator and owner of the Network Canvas suite of tools ("the Software"), which includes Network Canvas, Server, and Architect. This document informs you of our policies regarding the collection, use and disclosure of Personal Information we receive from users of the Software.
+The Complex Data Collective ("us," "we," or "our") is the creator and owner of the Network Canvas suite of tools ("the Software"), which includes Interviewer, Server, and Architect. This document informs you of our policies regarding the collection, use and disclosure of Personal Information we receive from users of the Software.
  
 By using the Software, you acknowledge your acceptance of the information management practices in accordance with this policy.
 
@@ -15,7 +15,7 @@ No Personal Information will be collected, transmitted, or stored by the Softwar
 
 Security
 
-Data transmitted between Network Canvas and Server are encrypted using a symmetric encryption algorithm called Advanced Encryption Standard (AES) which secures its integrity before transmission. Once the data are encrypted, they are sent securely to Server using Transport Layer Security (TLS).
+Data transmitted between Interviewer and Server are encrypted using a symmetric encryption algorithm called Advanced Encryption Standard (AES) which secures its integrity before transmission. Once the data are encrypted, they are sent securely to Server using Transport Layer Security (TLS).
 
 
 Cookies

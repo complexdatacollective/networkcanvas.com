@@ -46,7 +46,7 @@ Thank you for taking the time to explore the software! Below you will find downl
       </div>
 
       <div class="app__intro">
-        <h3>Network Canvas</h3>
+        <h3>Interviewer</h3>
       </div>
 
       <div class="app__platform">
