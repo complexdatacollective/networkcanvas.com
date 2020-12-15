@@ -131,4 +131,4 @@ Thank you for taking the time to explore the software! Below you will find downl
 
 ## System Requirements
 
-Please consult our documentatio on information on <a href="https://documentation.networkcanvas.com/docs/installation-guide/#system-requirements">system requirements</a>.
+Please consult our documentation article on <a href="https://documentation.networkcanvas.com/docs/installation-guide/#system-requirements">system requirements</a>.
