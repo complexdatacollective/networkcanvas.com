@@ -53,11 +53,11 @@ The stable versions of all three apps within the Network Canvas Suite are availa
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/complexdatacollective/Interviewer/releases/download/v6.0.1/Network.Canvas.Interviewer.Setup-6.0.1.exe" class="btn btn--sm btn--color-b">Download for<br />Windows</a>
+        <a href="https://github.com/complexdatacollective/Interviewer/releases/download/v6.0.1/Network-Canvas-Interviewer-Setup-6.0.1.exe" class="btn btn--sm btn--color-b">Download for<br />Windows</a>
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/complexdatacollective/Interviewer/releases/download/v6.0.1/Network.Canvas.Interviewer-6.0.1.dmg" class="btn btn--sm btn--color-b">Download for<br />macOS</a>
+        <a href="https://github.com/complexdatacollective/Interviewer/releases/download/v6.0.1/Network-Canvas-Interviewer-6.0.1.dmg" class="btn btn--sm btn--color-b">Download for<br />macOS</a>
       </div>
 
       <div class="app__platform">
@@ -91,11 +91,11 @@ The stable versions of all three apps within the Network Canvas Suite are availa
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/complexdatacollective/Architect/releases/download/v6.0.1/Network.Canvas.Architect.Setup-6.0.1.exe" class="btn btn--sm btn--color-a">Download for<br />Windows</a>
+        <a href="https://github.com/complexdatacollective/Architect/releases/download/v6.0.1/Network-Canvas-Architect-Setup-6.0.1.exe" class="btn btn--sm btn--color-a">Download for<br />Windows</a>
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/complexdatacollective/Architect/releases/download/v6.0.1/Network.Canvas.Architect-6.0.1.dmg" class="btn btn--sm btn--color-a">Download for<br />macOS</a>
+        <a href="https://github.com/complexdatacollective/Architect/releases/download/v6.0.1/Network-Canvas-Architect-6.0.1.dmg" class="btn btn--sm btn--color-a">Download for<br />macOS</a>
       </div>
 
       <div class="app__platform">
@@ -117,11 +117,11 @@ The stable versions of all three apps within the Network Canvas Suite are availa
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/complexdatacollective/Server/releases/download/v6.0.1/Network.Canvas.Server.Setup-6.0.1.exe" class="btn btn--sm btn--color-c">Download for<br />Windows</a>
+        <a href="https://github.com/complexdatacollective/Server/releases/download/v6.0.1/Network-Canvas-Server-Setup-6.0.1.exe" class="btn btn--sm btn--color-c">Download for<br />Windows</a>
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/complexdatacollective/Server/releases/download/v6.0.1/Network.Canvas.Server-6.0.1.dmg" class="btn btn--sm btn--color-c">Download for<br />macOS</a>
+        <a href="https://github.com/complexdatacollective/Server/releases/download/v6.0.1/Network-Canvas-Server-6.0.1.dmg" class="btn btn--sm btn--color-c">Download for<br />macOS</a>
       </div>
 
       <div class="app__platform">
