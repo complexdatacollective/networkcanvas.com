@@ -134,8 +134,8 @@ The stable versions of all three apps within the Network Canvas Suite are availa
 
 ## System Requirements
 
-Please consult our documentation article on <a href="https://documentation.networkcanvas.com/docs/installation-guide/#system-requirements">system requirements</a>.
+Please consult our documentation article on <a href="https://documentation.networkcanvas.com/installation-guide/#system-requirements">system requirements</a>.
 
 ## Updating from Beta to the Stable Release
 
-If you’re a beta user of Network Canvas, see our technical documentation about <a href="https://documentation.networkcanvas.com/docs/technical-documentation/updating-from-beta">updating from Beta to the Stable Release</a>.
+If you’re a beta user of Network Canvas, see our technical documentation about <a href="https://documentation.networkcanvas.com/how-to/updating-from-beta">updating from Beta to the Stable Release</a>.
