@@ -30,7 +30,7 @@ The stable versions of all three apps within the Network Canvas Suite are availa
         Linux
       </div>
 
-      <div class="app__platform">
+      <div class="app__platform ios">
         App Store
       </div>
 
@@ -53,21 +53,28 @@ The stable versions of all three apps within the Network Canvas Suite are availa
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/complexdatacollective/Interviewer/releases/download/v6.1.0/Network-Canvas-Interviewer-Setup-6.1.0.exe" class="btn btn--sm btn--color-b">Download for<br />Windows</a>
+        <a href="https://github.com/complexdatacollective/Interviewer/releases/download/v6.1.1/Network-Canvas-Interviewer-Setup-6.1.1.exe" class="btn btn--sm btn--color-b">Download for<br />Windows</a>
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/complexdatacollective/Interviewer/releases/download/v6.1.0/Network-Canvas-Interviewer-6.1.0.dmg" class="btn btn--sm btn--color-b">Download for<br />macOS</a>
+        <a href="https://github.com/complexdatacollective/Interviewer/releases/download/v6.1.1/Network-Canvas-Interviewer-6.1.1.dmg" class="btn btn--sm btn--color-b">Download for<br />macOS</a>
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/complexdatacollective/Interviewer/releases/tag/v6.1.0" class="btn btn--sm btn--color-b">Download for<br />Linux</a>
+        <a href="https://github.com/complexdatacollective/Interviewer/releases/tag/v6.1.1" class="btn btn--sm btn--color-b">Download for<br />Linux</a>
       </div>
 
-      <div class="app__platform">
-        <a href="https://apps.apple.com/us/app/network-canvas-interviewer/id1538673677" class="app__platform-badge app__platform-badge--app-store">
+      <div class="app__platform ios">
+        <small>
+          <strong>iOS Users</strong>
+          <p>
+            We have encountered serious difficulties with Apple during the review process for our app. For the time being we advise all our users to
+            use Interviewer on an alternative platform. We apologize sincerely for this. Please contact the project team at <a href="mailto:info@networkcanvas.com">info@networkcanvas.com</a> for help and support.
+          </p>
+        </small>
+        <!-- <a href="https://apps.apple.com/us/app/network-canvas-interviewer/id1538673677" class="app__platform-badge app__platform-badge--app-store">
           <img src="/assets/img/app-store-badge.svg" />
-        </a>
+        </a> -->
       </div>
 
       <div class="app__platform">
