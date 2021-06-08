@@ -30,12 +30,12 @@ The stable versions of all three apps within the Network Canvas Suite are availa
         Linux
       </div>
 
-      <div class="app__platform ios">
-        App Store
-      </div>
-
       <div class="app__platform">
         Play Store
+      </div>
+
+      <div class="app__platform ios">
+        Apple App Store
       </div>
     </div>
   </div>
@@ -53,34 +53,32 @@ The stable versions of all three apps within the Network Canvas Suite are availa
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/complexdatacollective/Interviewer/releases/download/v6.1.1/Network-Canvas-Interviewer-Setup-6.1.1.exe" class="btn btn--sm btn--color-b">Download for<br />Windows</a>
+        <a href="https://github.com/complexdatacollective/Interviewer/releases/download/v6.1.2/Network-Canvas-Interviewer-Setup-6.1.2.exe" class="btn btn--sm btn--color-b">Download for<br />Windows</a>
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/complexdatacollective/Interviewer/releases/download/v6.1.1/Network-Canvas-Interviewer-6.1.1.dmg" class="btn btn--sm btn--color-b">Download for<br />macOS</a>
+        <a href="https://github.com/complexdatacollective/Interviewer/releases/download/v6.1.2/Network.Canvas.Interviewer-6.1.2.dmg" class="btn btn--sm btn--color-b">Download for<br />macOS</a>
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/complexdatacollective/Interviewer/releases/tag/v6.1.1" class="btn btn--sm btn--color-b">Download for<br />Linux</a>
-      </div>
-
-      <div class="app__platform ios">
-        <small>
-          <strong>iOS Users</strong>
-          <p>
-            We have encountered serious difficulties with Apple during the review process for our app. For the time being we advise all our users to
-            use Interviewer on an alternative platform. We apologize sincerely for this. Please contact the project team at <a href="mailto:info@networkcanvas.com">info@networkcanvas.com</a> for help and support.
-          </p>
-        </small>
-        <!-- <a href="https://apps.apple.com/us/app/network-canvas-interviewer/id1538673677" class="app__platform-badge app__platform-badge--app-store">
-          <img src="/assets/img/app-store-badge.svg" />
-        </a> -->
+        <a href="https://github.com/complexdatacollective/Interviewer/releases/tag/v6.1.2" class="btn btn--sm btn--color-b">Download for<br />Linux</a>
       </div>
 
       <div class="app__platform">
         <a href="https://play.google.com/store/apps/details?id=org.codaco.NetworkCanvasInterviewer6" class="app__platform-badge">
           <img src="/assets/img/google-play-badge.png" />
         </a>
+      </div>
+
+      <div class="app__platform ios">
+        <small>
+          <p>
+            We must sadly announce that we are unable to continue to distribute Interviewer on the public App store, due to a disagreement with Apple. A policy was applied during the review process which would require us to manually verify and approve all users of our app. We refused to do so, which has resulted in our app being rejected. We now advise all researchers to use Interviewer on alternative platforms while we explore sustainable alternatives. We continue to be able to support iPad users through a private distribution process, but it will likely only be suitable for large studies with access to IT support. Please contact us at <a href="mailto:info@networkcanvas.com">info@networkcanvas.com</a> to explore this option, or if you have questions or concerns. We sincerely apologize for the situation.
+          </p>
+        </small>
+        <!-- <a href="https://apps.apple.com/us/app/network-canvas-interviewer/id1538673677" class="app__platform-badge app__platform-badge--app-store">
+          <img src="/assets/img/app-store-badge.svg" />
+        </a> -->
       </div>
     </div>
   </div>
@@ -98,15 +96,15 @@ The stable versions of all three apps within the Network Canvas Suite are availa
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/complexdatacollective/Architect/releases/download/v6.1.1/Network-Canvas-Architect-Setup-6.1.1.exe" class="btn btn--sm btn--color-a">Download for<br />Windows</a>
+        <a href="https://github.com/complexdatacollective/Architect/releases/download/v6.2.0/Network-Canvas-Architect-Setup-6.2.0.exe" class="btn btn--sm btn--color-a">Download for<br />Windows</a>
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/complexdatacollective/Architect/releases/download/v6.1.1/Network-Canvas-Architect-6.1.1.dmg" class="btn btn--sm btn--color-a">Download for<br />macOS</a>
+        <a href="https://github.com/complexdatacollective/Architect/releases/download/v6.2.0/Network-Canvas-Architect-6.2.0.dmg" class="btn btn--sm btn--color-a">Download for<br />macOS</a>
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/complexdatacollective/Architect/releases/tag/v6.1.1" class="btn btn--sm btn--color-a">Download for<br />Linux</a>
+        <a href="https://github.com/complexdatacollective/Architect/releases/tag/v6.2.0" class="btn btn--sm btn--color-a">Download for<br />Linux</a>
       </div>
     </div>
   </div>
@@ -124,15 +122,15 @@ The stable versions of all three apps within the Network Canvas Suite are availa
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/complexdatacollective/Server/releases/download/v6.0.1/Network-Canvas-Server-Setup-6.0.1.exe" class="btn btn--sm btn--color-c">Download for<br />Windows</a>
+        <a href="https://github.com/complexdatacollective/Server/releases/download/v6.1.0/Network-Canvas-Server-Setup-6.1.0.exe" class="btn btn--sm btn--color-c">Download for<br />Windows</a>
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/complexdatacollective/Server/releases/download/v6.0.1/Network-Canvas-Server-6.0.1.dmg" class="btn btn--sm btn--color-c">Download for<br />macOS</a>
+        <a href="https://github.com/complexdatacollective/Server/releases/download/v6.1.0/Network-Canvas-Server-6.1.0.dmg" class="btn btn--sm btn--color-c">Download for<br />macOS</a>
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/complexdatacollective/Server/releases/tag/v6.0.1" class="btn btn--sm btn--color-c">Download for<br />Linux</a>
+        <a href="https://github.com/complexdatacollective/Server/releases/tag/v6.1.0" class="btn btn--sm btn--color-c">Download for<br />Linux</a>
       </div>
     </div>
   </div>
