@@ -96,11 +96,11 @@ The stable versions of all three apps within the Network Canvas Suite are availa
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/complexdatacollective/Architect/releases/download/v6.3.1/Network-Canvas-Architect-Setup-6.3.1.exe" class="btn btn--sm btn--color-a">Download for<br />Windows</a>
+        <a href="https://github.com/complexdatacollective/Architect/releases/download/v6.3.1/Network.Canvas.Architect.Setup.6.3.1.exe" class="btn btn--sm btn--color-a">Download for<br />Windows</a>
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/complexdatacollective/Architect/releases/download/v6.3.1/Network-Canvas-Architect-6.3.1.dmg" class="btn btn--sm btn--color-a">Download for<br />macOS</a>
+        <a href="https://github.com/complexdatacollective/Architect/releases/download/v6.3.1/Network.Canvas.Architect-6.3.1.dmg" class="btn btn--sm btn--color-a">Download for<br />macOS</a>
       </div>
 
       <div class="app__platform">
