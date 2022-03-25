@@ -53,15 +53,15 @@ The stable versions of all three apps within the Network Canvas Suite are availa
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/complexdatacollective/Interviewer/releases/download/v6.2.1/Network-Canvas-Interviewer-Setup-6.2.1.exe" class="btn btn--sm btn--color-b">Download for<br />Windows</a>
+        <a href="https://github.com/complexdatacollective/Interviewer/releases/download/v6.3.0/Network.Canvas.Interviewer.Setup.6.3.0.exe" class="btn btn--sm btn--color-b">Download for<br />Windows</a>
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/complexdatacollective/Interviewer/releases/download/v6.2.1/Network-Canvas-Interviewer-6.2.1.dmg" class="btn btn--sm btn--color-b">Download for<br />macOS</a>
+        <a href="https://github.com/complexdatacollective/Interviewer/releases/download/v6.3.0/Network-Canvas-Interviewer-6.3.0.dmg" class="btn btn--sm btn--color-b">Download for<br />macOS</a>
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/complexdatacollective/Interviewer/releases/tag/v6.2.1" class="btn btn--sm btn--color-b">Download for<br />Linux</a>
+        <a href="https://github.com/complexdatacollective/Interviewer/releases/tag/v6.3.0" class="btn btn--sm btn--color-b">Download for<br />Linux</a>
       </div>
 
       <div class="app__platform">
@@ -73,7 +73,7 @@ The stable versions of all three apps within the Network Canvas Suite are availa
       <div class="app__platform ios">
         <small>
           <p>
-            We must sadly announce that we are unable to continue to distribute Interviewer on the public App store, due to a disagreement with Apple. A policy was applied during the review process which would require us to manually verify and approve all users of our app. We refused to do so, which has resulted in our app being rejected. We now advise all researchers to use Interviewer on alternative platforms while we explore sustainable alternatives. We continue to be able to support iPad users through a private distribution process, but it will likely only be suitable for large studies with access to IT support. Please contact us at <a href="mailto:info@networkcanvas.com">info@networkcanvas.com</a> to explore this option, or if you have questions or concerns. We sincerely apologize for the situation.
+            We must sadly announce that we are unable to continue to distribute Interviewer on the Apple App store. We now advise all researchers to use Interviewer on alternative platforms while we explore sustainable alternatives.
           </p>
         </small>
         <!-- <a href="https://apps.apple.com/us/app/network-canvas-interviewer/id1538673677" class="app__platform-badge app__platform-badge--app-store">
@@ -96,15 +96,15 @@ The stable versions of all three apps within the Network Canvas Suite are availa
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/complexdatacollective/Architect/releases/download/v6.3.1/Network.Canvas.Architect.Setup.6.3.1.exe" class="btn btn--sm btn--color-a">Download for<br />Windows</a>
+        <a href="https://github.com/complexdatacollective/Architect/releases/download/v6.4.0/Network.Canvas.Architect.Setup.6.4.0.exe" class="btn btn--sm btn--color-a">Download for<br />Windows</a>
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/complexdatacollective/Architect/releases/download/v6.3.1/Network.Canvas.Architect-6.3.1.dmg" class="btn btn--sm btn--color-a">Download for<br />macOS</a>
+        <a href="https://github.com/complexdatacollective/Architect/releases/download/v6.4.0/Network.Canvas.Architect-6.4.0.dmg" class="btn btn--sm btn--color-a">Download for<br />macOS</a>
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/complexdatacollective/Architect/releases/tag/v6.3.1" class="btn btn--sm btn--color-a">Download for<br />Linux</a>
+        <a href="https://github.com/complexdatacollective/Architect/releases/tag/v6.4.0" class="btn btn--sm btn--color-a">Download for<br />Linux</a>
       </div>
     </div>
   </div>
