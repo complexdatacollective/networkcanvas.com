@@ -53,15 +53,15 @@ The stable versions of all three apps within the Network Canvas Suite are availa
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/complexdatacollective/Interviewer/releases/download/v6.3.0/Network.Canvas.Interviewer.Setup.6.3.0.exe" class="btn btn--sm btn--color-b">Download for<br />Windows</a>
+        <a href="https://github.com/complexdatacollective/Interviewer/releases/download/v6.3.1/Network.Canvas.Interviewer.Setup.6.3.1.exe" class="btn btn--sm btn--color-b">Download for<br />Windows</a>
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/complexdatacollective/Interviewer/releases/download/v6.3.0/Network-Canvas-Interviewer-6.3.0.dmg" class="btn btn--sm btn--color-b">Download for<br />macOS</a>
+        <a href="https://github.com/complexdatacollective/Interviewer/releases/download/v6.3.1/Network.Canvas.Interviewer-6.3.1.dmg" class="btn btn--sm btn--color-b">Download for<br />macOS</a>
       </div>
 
       <div class="app__platform">
-        <a href="https://github.com/complexdatacollective/Interviewer/releases/tag/v6.3.0" class="btn btn--sm btn--color-b">Download for<br />Linux</a>
+        <a href="https://github.com/complexdatacollective/Interviewer/releases/tag/v6.3.1" class="btn btn--sm btn--color-b">Download for<br />Linux</a>
       </div>
 
       <div class="app__platform">
