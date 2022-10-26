@@ -15,19 +15,5 @@
   "bugs": {
     "url": "https://github.com/complexdatacollective/networkcanvas-web/issues"
   },
-  "homepage": "https://github.com/complexdatacollective/networkcanvas-web#readme",
-  "devDependencies": {
-    "grunt": "^1.0.1",
-    "grunt-cli": "^1.2.0",
-    "grunt-contrib-sass": "^1.0.0",
-    "grunt-contrib-watch": "^1.0.0",
-    "grunt-jekyll": "^0.4.6",
-    "grunt-sass": "^2.0.0",
-    "load-grunt-tasks": "^3.5.2"
-  },
-  "dependencies": {
-    "angled-edges": "^2.0.0",
-    "bootstrap": "^4.0.0-alpha.6",
-    "swiper": "^3.4.2"
-  }
+  "homepage": "https://github.com/complexdatacollective/networkcanvas-web#readme"
 }
