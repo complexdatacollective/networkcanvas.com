@@ -1,0 +1,45 @@
+name: Build and deploy
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          cache: yarn
+
+      - name: Install Yarn packages
+        run: yarn install --frozen-lockfile
+
+      - name: Build site with Jekyll
+        run: bundle exec jekyll build
+
+      - name: Build the production image
+        run: docker build -t app .
+
+      - name: Test nginx config
+        run: docker run --rm app nginx -t
+
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v1
+        with:
+          registry: ghcr.io
+          username: ${{ github.repository_owner }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Push the production image to the container registry
+        if: github.ref == 'refs/heads/master'
+        run: |
+          docker tag app ghcr.io/${{ github.repository }}:latest
+          docker push ghcr.io/${{ github.repository }}:latest
