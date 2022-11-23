@@ -10,7 +10,7 @@ Furthermore, a thorough understanding of population dynamics is vital for reduci
 
 **Project Manager**: Kate Banner
 
-**Development Team**: Joshua Melvile (Lead); Steve McKellar (Team Garlic UK); Rebecca Madsen
+**Development Team**: Joshua Melville (Lead);
 
 **Principal Investigators**: Drs. Michelle Birkett and Gregory Phillips II
 
@@ -20,6 +20,4 @@ _Alpha Test Sites:_ Dr. Natalie Crawford/Emory; Dr. Cui Yang/Johns Hopkins
 
 _Scientific Advisory Board:_ Dr. Brian Mustanski, Dr. Richard D’Aquila, Dr. Martin Everett, Dr. jimi adams, Dr. Abel Kho
 
-_Project Alum:_  Bryan Fox; Matt Meshulam; Jamie Chung; Shawna Davis; Elizabeth McConnell; Balint Neray
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XzfE6j-LnII" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+_Project Alum:_  Bryan Fox; Matt Meshulam; Jamie Chung; Shawna Davis; Elizabeth McConnell; Balint Neray, Steve McKellar (Team Garlic UK), Rebecca Madsen

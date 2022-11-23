@@ -34,7 +34,7 @@ exclude: [README.md, deploy.sh,  node_modules, package.json, npm-debug.log, Grun
 
 navigation:
   - title: About
-    url: /about.html
+    url: https://documentation.networkcanvas.com/project-overview/
   - title: Community
     url: https://community.networkcanvas.com
   - title: Documentation
