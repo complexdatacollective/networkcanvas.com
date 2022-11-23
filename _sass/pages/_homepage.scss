@@ -223,8 +223,8 @@ $sans-serif-bold: sans-serif;
     width: 100%;
 
     .btn {
-      display: block;
-      width: 256px;
+      display: inline-block;
+      max-width: 350px;
       margin: 0 auto;
     }
 
@@ -246,13 +246,7 @@ $sans-serif-bold: sans-serif;
     }
 
     h2 {
-      margin-bottom: 0;
-      padding-bottom: 1rem;
       text-align: center;
-    }
-
-    p {
-      padding-bottom: 2rem;
     }
   }
 

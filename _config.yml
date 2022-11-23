@@ -33,8 +33,10 @@ plugins:
 exclude: [README.md, deploy.sh,  node_modules, package.json, npm-debug.log, Gruntfile.js, Gemfile, Gemfile.lock, vendor]
 
 navigation:
-  - title: About the Project
+  - title: About
     url: /about.html
+  - title: Community
+    url: https://community.networkcanvas.com
   - title: Documentation
     url: https://documentation.networkcanvas.com
   - title: Feedback

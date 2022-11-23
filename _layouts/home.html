@@ -10,11 +10,12 @@ layout: default
 
     <section class="announcement">
         <div class="container">
-            <div class="announcement__container">
-                <span>🎉</span> With the latest releases, we have some important news!<br />
-                <a href="/download.html">Click <strong>here</strong> to download</a>, or
-                <a href="https://documentation.networkcanvas.com/february-2022-project-update/">read our update <strong>here</strong></a>!
-            </div>
+            <a href="https://community.networkcanvas.com" target="_blank">
+                <div class="announcement__container">
+                    <span>🚀</span> Have you seen our new community website?<br />
+                    <span>👉</span> <strong>community.networkcanvas.com</strong>
+                </div>
+            </a>
         </div>
     </section>
 
@@ -81,42 +82,60 @@ layout: default
         </div>
     </section>
 
-    <section class="mailing-list-block">
+    <section class="cta-block">
         <div class="container">
-            <h1 class="section-heading">Keep in touch</h1>
-            <p>If you would like to stay in touch with the project, and find out about events and releases as soon as they happen, we encourage you to join our mailing list, and to follow us on Twitter. We are considerate email partners, and will only ever use this list for important announcements.</p>
-            <div class="grid">
-                <div class="grid__col-half mailing-list">
-                    {% include mailing-list.html %}
+            <!-- <h1 class="section-heading">What next?</h1> -->
+            <div class="cta-block__wrap">
+                <div class="cta-block__content">
+                    <div className="content-icon">
+                        <img src="assets/img/robot.svg" alt="Just getting started?">
+                    </div>
+                    <div className="content-text">
+                        <h2>Looking for help or want to learn more?</h2>
+                        <p>We have created extensive documentation, covering all aspects of creating, deploying, and managing a
+                            study using Network Canvas.</p>
+                        <a href="https://documentation.networkcanvas.com" class="btn btn--md btn--color-a">
+                            Documentation
+                        </a>
+                        <p>We have also recently launched a community website, where you can ask questions, report bugs, share
+                            your work, and get help from other researchers.</p>
+                        <a href="https://community.networkcanvas.com" class="btn btn--md btn--color-b">
+                            Community Website
+                        </a>
+                    </div>
                 </div>
-                <div class="grid__col-half twitter-feed">
-                        <a class="twitter-timeline" data-height="600" data-link-color="#00C9A2" href="https://twitter.com/NetworkCanvas?ref_src=twsrc%5Etfw">Tweets by NetworkCanvas</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    
+                <div class="cta-block__content">
+                    <div className="content-icon">
+                        <img src="assets/img/lightbulb.svg" alt="Got an idea?">
+                    </div>
+                    <div className="content-text">
+                        <h2>Want to collaborate?</h2>
+                        <p>This is an open source community-driven project. Please share your thoughts on the software, suggest
+                            new features, or to tell us where we could improve on our community website!</p>
+                        <p>If you are interested in a formal academic or consultancy-based collaboration, please see our
+                            documentation article on the subject.</p>
+                        <a href="https://documentation.networkcanvas.com/requests-for-collaboration/"
+                            class="btn btn--md btn--color-c">
+                            Collaboration Requests
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="cta-block">
+    <section class="mailing-list-block">
         <div class="container">
-            <h1 class="section-heading">What next?</h1>
-            <div class="cta-block__wrap">        
-                <div class="cta-block__content">
-                    <img src="assets/img/robot.svg" alt="Just getting started?">
-                    <h2>Looking for help?</h2>
-                    <p>We have created extensive documentation, convering all aspects of creating, deploying, and managing a study using Network Canvas.</p>
-                    <a href="https://documentation.networkcanvas.com" class="btn btn--md btn--color-a">
-                        Documentation
-                    </a>
+            <h1 class="section-heading">Keep in touch</h1>
+            <p>If you would like to stay in touch with the project, and find out about events and releases as soon as they happen, we encourage you to join our mailing list, and to follow us on Twitter. We are considerate email partners, and will only ever use this list for important announcements.</p>
+            <div class="grid">
+                <div class="grid__col-full mailing-list">
+                    {% include mailing-list.html %}
                 </div>
-
-                <div class="cta-block__content">
-                    <img src="assets/img/lightbulb.svg" alt="Help us improve">
-                    <h2>Want to collaborate?</h2>
-                    <p>This is an open source community-driven project. Please share your thoughts on the software, suggest new features, or to tell us where we could improve!</p>
-                    <a href="/feedback.html" class="btn btn--md btn--color-c">
-                        Feedback
-                    </a>
-                </div>
+                <!-- <div class="grid__col-half twitter-feed">
+                        <a class="twitter-timeline" data-height="600" data-link-color="#00C9A2" href="https://twitter.com/NetworkCanvas?ref_src=twsrc%5Etfw">Tweets by NetworkCanvas</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div> -->
             </div>
         </div>
     </section>
